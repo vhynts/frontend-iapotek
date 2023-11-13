@@ -1,0 +1,24 @@
+CRITICAL - 2023-10-20 16:58:39 --> Undefined variable $hari
+in APPPATH\Views\partials\topbar-pos.php on line 10.
+ 1 APPPATH\Views\partials\topbar-pos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hari', 'C:\\laragon\\www\\apotek-pos\\app\\Views\\partials\\topbar-pos.php', 10)
+ 2 APPPATH\Views\pos.php(22): include('C:\\laragon\\www\\apotek-pos\\app\\Views\\partials\\topbar-pos.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\apotek-pos\\app\\Views\\pos.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pos', [], true)
+ 6 APPPATH\Controllers\Pos.php(9): view('pos')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 16:58:41 --> Undefined variable $hari
+in APPPATH\Views\partials\topbar-pos.php on line 10.
+ 1 APPPATH\Views\partials\topbar-pos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hari', 'C:\\laragon\\www\\apotek-pos\\app\\Views\\partials\\topbar-pos.php', 10)
+ 2 APPPATH\Views\pos.php(22): include('C:\\laragon\\www\\apotek-pos\\app\\Views\\partials\\topbar-pos.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\apotek-pos\\app\\Views\\pos.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pos', [], true)
+ 6 APPPATH\Controllers\Pos.php(9): view('pos')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
