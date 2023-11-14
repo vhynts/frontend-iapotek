@@ -52,7 +52,7 @@
                             <table id="alternative-page-datatable" class="table table-striped dt-responsive nowrap w-100">
                                 <thead class="table-primary">
                                     <tr>
-                                        <th>Aksi</th>
+                                        <th>Aksikkk</th>
                                         <th>Kode Item</th>
                                         <th>Nama Item</th>
                                         <th>Stok</th>
