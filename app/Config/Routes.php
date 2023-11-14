@@ -5,9 +5,11 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
 
-$routes->get('/auth', 'AuthController::index');
+
+$routes->get('/', 'AuthController::index');
+
+$routes->get('/dashboard', 'HomeController::index');
 
 $routes->get('/point-of-sale', 'PosController::index');
 

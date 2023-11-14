@@ -60,8 +60,10 @@
                                              </div>
                                          </div>
                                          <div class="mb-0 text-start">
-                                             <button class="btn btn-success w-100" type="submit"><i class="ri-login-circle-fill me-1"></i> <span class="fw-bold">Log
-                                                     In</span> </button>
+                                             <a href="dashboard" class="btn btn-success w-100" type="submit"><i class="ri-login-circle-fill me-1"></i> <span class="fw-bold">Log
+                                                     In</span> </a>
+                                             <!-- <button class="btn btn-success w-100" type="submit"><i class="ri-login-circle-fill me-1"></i> <span class="fw-bold">Log
+                                                     In</span> </button> -->
                                          </div>
 
 
