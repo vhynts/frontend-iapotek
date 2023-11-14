@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Purchase extends BaseController
+class PurchaseController extends BaseController
 {
     public function purchase_list()
     {

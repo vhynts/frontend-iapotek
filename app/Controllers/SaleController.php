@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Sale extends BaseController
+class SaleController extends BaseController
 {
     public function sales_list()
     {

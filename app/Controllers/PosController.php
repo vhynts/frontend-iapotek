@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Pos extends BaseController
+class PosController extends BaseController
 {
     public function index(): string
     {

@@ -4,11 +4,11 @@ namespace App\Controllers;
 
 use App\Models\Master_model;
 
-class Master extends BaseController
+class MasterController extends BaseController
 {
 
 
-    public function item()
+    public function index()
     {
         $masteritem = new Master_model();
 
