@@ -38,13 +38,6 @@
                     <div class="row">
                         <div class="col border">
 
-                            <!-- <div class="m-1">
-                                                        <label for="simpleinput" class="form-label">CUSTOMER</label>
-                                                        <input type="text" id="simpleinput" class="form-control" value="REGULAR">
-                                                        <button type="submit" class="btn btn-success mb-2"> <i class="bi bi-search"></i></button>                                                     
-                                                        
-                                                    </div> -->
-
                             <div class="m-1">
                                 <label class="form-label">CUSTOMER</label>
                                 <div class="input-group">
@@ -118,7 +111,7 @@
 
                     <div class="row border">
                         <!-- <div class="table-responsive" style="max-height: 300px; height: 300px;"> -->
-                        <div class="table-responsive p-0" style="max-height: 300px; height: 300px;">
+                        <div class="table-responsive p-0" style="max-height: 400px; height: 400px;">
                             <table class="table mb-0">
                                 <thead class="table-secondary" style="padding: 10px;">
                                     <tr>

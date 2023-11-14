@@ -62,27 +62,16 @@
                                         <li class="nav-item">
                                             <a href="#basictab3" data-bs-toggle="tab" data-toggle="tab" class="nav-link rounded-0 py-2">
                                                 <i class="bi bi-tags fw-normal fs-20 align-middle me-1"></i>
+                                                <span class="d-none d-sm-inline">Harga Jual & Potongan</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#basictab4" data-bs-toggle="tab" data-toggle="tab" class="nav-link rounded-0 py-2">
+                                                <i class="bi bi-tags fw-normal fs-20 align-middle me-1"></i>
                                                 <span class="d-none d-sm-inline">Harga Jual</span>
                                             </a>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a href="#basictab4" data-bs-toggle="tab" data-toggle="tab" class="nav-link rounded-0 py-2">
-                                                <i class="ri-check-double-line fw-normal fs-20 align-middle me-1"></i>
-                                                <span class="d-none d-sm-inline">Finish</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#basictab5" data-bs-toggle="tab" data-toggle="tab" class="nav-link rounded-0 py-2">
-                                                <i class="ri-check-double-line fw-normal fs-20 align-middle me-1"></i>
-                                                <span class="d-none d-sm-inline">Finish</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#basictab6" data-bs-toggle="tab" data-toggle="tab" class="nav-link rounded-0 py-2">
-                                                <i class="ri-check-double-line fw-normal fs-20 align-middle me-1"></i>
-                                                <span class="d-none d-sm-inline">Finish</span>
-                                            </a>
-                                        </li> -->
+
                                     </ul>
 
                                     <div class="tab-content b-0 mb-0">
@@ -104,19 +93,19 @@
                                                         <div class="col-md-8">
                                                             <div class="mt-2">
                                                                 <div class="form-check form-check-inline">
-                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" checked >
+                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" checked>
                                                                     <label class="form-check-label" for="customRadio1">Barang (INV)</label>
                                                                 </div>
                                                                 <div class="form-check form-check-inline">
-                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" >
+                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input">
                                                                     <label class="form-check-label" for="customRadio1">Rakitan (ASM)</label>
                                                                 </div>
                                                                 <div class="form-check form-check-inline">
-                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" >
+                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input">
                                                                     <label class="form-check-label" for="customRadio1">Non Inventory (NON-INV)</label>
                                                                 </div>
                                                                 <div class="form-check form-check-inline">
-                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" >
+                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input">
                                                                     <label class="form-check-label" for="customRadio1">Jasa (SRV)</label>
                                                                 </div>
                                                             </div>
@@ -347,6 +336,119 @@
                                         </div>
 
                                         <div class="tab-pane" id="basictab3">
+
+                                            <div class="row ">
+                                                <div class="col-sm-4 m-1 ">
+                                                    <div class="row mb-0 mt-0">
+                                                        <div class="row">
+                                                            <label class="col-sm col-form-label pt-0 text-center" for="userName">Harga Jual</label>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-sm-3 col-form-label" for="userName">Pilihan</label>
+                                                            <div class="col-md-8">
+                                                                <div class="mt-2">
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" checked>
+                                                                        <label class="form-check-label" for="customRadio1">Satu Harga</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input">
+                                                                        <label class="form-check-label" for="customRadio1">Berdasarkan Jumlah</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input">
+                                                                        <label class="form-check-label" for="customRadio1">Level Harga</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input">
+                                                                        <label class="form-check-label" for="customRadio1">Berdasarkan Satuan</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                </div>
+
+
+
+                                                <div class="col-sm m-1">
+                                                    <div class="row">
+
+                                                        <div class="row">
+                                                            <label class="col-sm col-form-label pt-0 text-center" for="userName">Potongan Harga Jual</label>
+                                                        </div>
+
+                                                        <!-- <div class="table-responsive p-0 border mb-2" style="max-height: 200px; height: 200px;">
+                                                            <table class="table mb-0">
+                                                                <thead class="table-secondary" style="padding: 10px;">
+                                                                    <tr>
+
+                                                                        <th class="fs-12">SATUAN</th>
+                                                                        <th class="fs-12">KONVERSI</th>
+                                                                        <th class="fs-12">BARCODE</th>
+                                                                        <th class="fs-12">HARGA POKOK</th>
+                                                                        <th class="fs-12">AKSI</th>
+                                                                    </tr>
+                                                                </thead>
+
+                                                                <tbody class="fs-13">
+                                                                    <tr>
+                                                                        <th scope=" row" class="p-2">PCS</th>
+                                                                        <td class="p-2">100</td>
+                                                                        <td class="p-2">120491090</td>
+                                                                        <td class="p-2">50000</td>
+                                                                        <td class="p-1"><a href="javascript: void(0);" class="fs-18 px-1"> <i class="bi bi-trash text-danger"></i></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope=" row" class="p-2">PCS</th>
+                                                                        <td class="p-2">100</td>
+                                                                        <td class="p-2">120491090</td>
+                                                                        <td class="p-2">50000</td>
+                                                                        <td class="p-1"><a href="javascript: void(0);" class="fs-18 px-1"> <i class="bi bi-trash text-danger"></i></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope=" row" class="p-2">PCS</th>
+                                                                        <td class="p-2">100</td>
+                                                                        <td class="p-2">120491090</td>
+                                                                        <td class="p-2">50000</td>
+                                                                        <td class="p-1"><a href="javascript: void(0);" class="fs-18 px-1"> <i class="bi bi-trash text-danger"></i></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope=" row" class="p-2">PCS</th>
+                                                                        <td class="p-2">100</td>
+                                                                        <td class="p-2">120491090</td>
+                                                                        <td class="p-2">50000</td>
+                                                                        <td class="p-1"><a href="javascript: void(0);" class="fs-18 px-1"> <i class="bi bi-trash text-danger"></i></a></td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+
+
+
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <ul class="pager wizard mb-0 list-inline">
+                                                <li class="previous list-inline-item">
+                                                    <button type="button" class="btn btn-light"><i class="ri-arrow-left-line me-1"></i> Satuan</button>
+                                                </li>
+                                                <li class="next list-inline-item float-end">
+                                                    <button type="button" class="btn btn-info">Lain lain <i class="ri-arrow-right-line ms-1"></i></button>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="tab-pane" id="basictab4">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="text-center">
