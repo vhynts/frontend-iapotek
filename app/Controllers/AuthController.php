@@ -6,6 +6,10 @@ class AuthController extends BaseController
 {
     public function index()
     {
-        return view('zauth/login');
+        $data = [
+            'title' => 'Login',
+
+        ];
+        return view('zauth/login', $data);
     }
 }
