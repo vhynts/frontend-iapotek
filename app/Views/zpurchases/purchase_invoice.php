@@ -157,7 +157,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="table-responsive p-0 mt-3">
-                                        <table class=" table mb-0">
+                                        <table class=" table table-striped mb-0">
                                             <thead class="table-secondary" style="padding: 10px;">
                                                 <tr>
                                                     <th style="font-size: 12px;">NO</th>
@@ -227,6 +227,28 @@
                                     </td>
                                     </tr>
 
+                                    <tr>
+                                        <th scope=" row">1</th>
+                                        <!-- <td>10013164</td> -->
+                                        <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
+                                        <td>5</td>
+                                        <td>BOX</td>
+                                        <td>98.000</td>
+                                        <td>0</td>
+                                        <td>490.000</td>
+                                        <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-trash-fill text-danger"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope=" row">1</th>
+                                        <!-- <td>10013164</td> -->
+                                        <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
+                                        <td>5</td>
+                                        <td>BOX</td>
+                                        <td>98.000</td>
+                                        <td>0</td>
+                                        <td>490.000</td>
+                                        <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-trash-fill text-danger"></i></a></td>
+                                    </tr>
                                     <tr>
                                         <th scope=" row">1</th>
                                         <!-- <td>10013164</td> -->
