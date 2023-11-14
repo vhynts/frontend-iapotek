@@ -36,13 +36,6 @@
                     <a href="item-detail" class="btn btn-primary  float-end mb-2 mt-2"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Item</a>
                 </div>
 
-                <!-- <div class="col-sm">
-                    <button type="button" class="btn btn-primary  float-end mb-2 mt-2"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Item</button>
-                </div> -->
-                <!-- <div class="col-12">
-                    <button type="button" class="btn btn-success rounded-pill float-end mb-2 mt-2"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Item</button>
-                </div> -->
-
             </div>
             <div class="row">
                 <div class="col-12">
