@@ -16,12 +16,18 @@
  </head>
 
  <body class="authentication-bg position-relative">
+    
      <div class="account-pages pt-2 pt-sm-3 pb-4 pb-sm-5 position-relative">
          <div class="container">
              <div class="row justify-content-center">
+                
                  <div class="col-sm-5">
+                    <div class="alert alert-danger" role="alert">
+                            <strong>Klik Login </strong> 
+                    </div>
                      <div class="card overflow-hidden">
                          <div class="row g-0">
+                            
                              <!-- <div class="col-lg-6"> -->
                              <div class="d-flex flex-column h-100">
                                  <div class="auth-brand p-4">
@@ -101,5 +107,6 @@
 
      <!-- App js -->
      <script src="<?= base_url('assets/js/app.min.js'); ?>"></script>
+
 
  </body>
