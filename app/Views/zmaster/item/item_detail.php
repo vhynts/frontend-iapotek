@@ -104,20 +104,20 @@
                                                         <div class="col-md-8">
                                                             <div class="mt-2">
                                                                 <div class="form-check form-check-inline">
-                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" checked disabled>
+                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" checked >
                                                                     <label class="form-check-label" for="customRadio1">Barang (INV)</label>
                                                                 </div>
                                                                 <div class="form-check form-check-inline">
-                                                                    <input type="radio" id="customRadio2" name="customRadio2" class="form-check-input" disabled>
-                                                                    <label class="form-check-label" for="customRadio2">Rakitan (ASM)</label>
+                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" >
+                                                                    <label class="form-check-label" for="customRadio1">Rakitan (ASM)</label>
                                                                 </div>
                                                                 <div class="form-check form-check-inline">
-                                                                    <input type="radio" id="customRadio3" name="customRadio3" class="form-check-input" disabled>
-                                                                    <label class="form-check-label" for="customRadio3">Non Inventory (NON-INV)</label>
+                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" >
+                                                                    <label class="form-check-label" for="customRadio1">Non Inventory (NON-INV)</label>
                                                                 </div>
                                                                 <div class="form-check form-check-inline">
-                                                                    <input type="radio" id="customRadio4" name="customRadio4" class="form-check-input" disabled>
-                                                                    <label class="form-check-label" for="customRadio4">Jasa (SRV)</label>
+                                                                    <input type="radio" id="customRadio1" name="customRadio1" class="form-check-input" >
+                                                                    <label class="form-check-label" for="customRadio1">Jasa (SRV)</label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -196,12 +196,12 @@
                                                         <label class="col-sm-3 col-form-label" for="userName">Status Jual</label>
                                                         <div class="col-md-8 mt-2">
                                                             <div class="form-check form-check-inline">
-                                                                <input type="radio" id="customRadio5" name="customRadio5" class="form-check-input" checked>
-                                                                <label class="form-check-label" for="customRadio5">Masih dijual</label>
+                                                                <input type="radio" id="customRadio2" name="customRadio2" class="form-check-input" checked>
+                                                                <label class="form-check-label" for="customRadio2">Masih dijual</label>
                                                             </div>
                                                             <div class="form-check form-check-inline">
-                                                                <input type="radio" id="customRadio6" name="customRadio6" class="form-check-input">
-                                                                <label class="form-check-label" for="customRadio5">Tidak dijual</label>
+                                                                <input type="radio" id="customRadio2" name="customRadio2" class="form-check-input">
+                                                                <label class="form-check-label" for="customRadio2">Tidak dijual</label>
                                                             </div>
                                                         </div>
                                                     </div>
