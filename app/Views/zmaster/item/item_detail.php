@@ -189,7 +189,7 @@
                                                     <div class="row mt-1">
                                                         <label class="col-sm-3 col-form-label" for="userName">Keterangan</label>
                                                         <div class="col-md">
-                                                            <textarea class="form-control mt-2" id="example-textarea" rows="2"></textarea>
+                                                            <textarea class="form-control" id="example-textarea" rows="2"></textarea>
                                                         </div>
                                                     </div>
                                                     <div class="row mb-2">
@@ -235,29 +235,106 @@
                                         </div>
 
                                         <div class="tab-pane" id="basictab2">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="row mb-3">
-                                                        <label class="col-md-3 col-form-label" for="name"> First name</label>
-                                                        <div class="col-md-9">
-                                                            <input type="text" id="name" name="name" class="form-control" value="Francis">
+
+                                            <div class="row ">
+                                                <div class="col-sm-4 m-1 ">
+                                                    <div class="row mb-0 mt-0">
+                                                        <div class="row">
+                                                            <label class="col-sm col-form-label pt-0 text-center" for="userName">Detail</label>
                                                         </div>
-                                                    </div>
-                                                    <div class="row mb-3">
-                                                        <label class="col-md-3 col-form-label" for="surname"> Last name</label>
-                                                        <div class="col-md-9">
-                                                            <input type="text" id="surname" name="surname" class="form-control" value="Brinkman">
+                                                        <label class="col-sm-3 col-form-label" for="userName">Satuan Dasar</label>
+                                                        <div class="col-md mt-2">
+                                                            <select class="form-control select2" data-toggle="select2">
+                                                                <option>-</option>
+
+                                                                <option value="">SONY</option>
+                                                                <option value="">RIZMAWAN</option>
+
+
+                                                            </select>
                                                         </div>
                                                     </div>
 
-                                                    <div class="row mb-3">
-                                                        <label class="col-md-3 col-form-label" for="email">Email</label>
-                                                        <div class="col-md-9">
-                                                            <input type="email" id="email" name="email" class="form-control" value="cory1979@hotmail.com">
+
+                                                    <div class="row mb-1">
+                                                        <label class="col-sm-3 col-form-label" for="userName">Harga Pokok</label>
+                                                        <div class="col-md mt-1">
+                                                            <input type="text" class="form-control" id="userName" name="userName" value="12394">
                                                         </div>
                                                     </div>
-                                                </div> <!-- end col -->
-                                            </div> <!-- end row -->
+
+                                                    <div class="row mb-2">
+                                                        <label class="col-sm-3 col-form-label" for="userName">Barcode</label>
+                                                        <div class="col-md mt-1">
+                                                            <input type="text" class="form-control" id="userName" name="userName" value="12394">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+
+                                                <div class="col-sm m-1">
+                                                    <div class="row">
+                                                        <!-- <div class="table-responsive" style="max-height: 300px; height: 300px;"> -->
+                                                        <div class="row">
+                                                            <label class="col-sm col-form-label pt-0 text-center" for="userName">Daftar Konversi</label>
+                                                        </div>
+
+                                                        <div class="table-responsive p-0 border mb-2" style="max-height: 200px; height: 200px;">
+                                                            <table class="table mb-0">
+                                                                <thead class="table-secondary" style="padding: 10px;">
+                                                                    <tr>
+
+                                                                        <th class="fs-12">SATUAN</th>
+                                                                        <th class="fs-12">KONVERSI</th>
+                                                                        <th class="fs-12">BARCODE</th>
+                                                                        <th class="fs-12">HARGA POKOK</th>
+                                                                        <th class="fs-12">AKSI</th>
+                                                                    </tr>
+                                                                </thead>
+
+                                                                <tbody class="fs-13">
+                                                                    <tr>
+                                                                        <th scope=" row" class="p-2">PCS</th>
+                                                                        <td class="p-2">100</td>
+                                                                        <td class="p-2">120491090</td>
+                                                                        <td class="p-2">50000</td>
+                                                                        <td class="p-1"><a href="javascript: void(0);" class="fs-18 px-1"> <i class="bi bi-trash text-danger"></i></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope=" row" class="p-2">PCS</th>
+                                                                        <td class="p-2">100</td>
+                                                                        <td class="p-2">120491090</td>
+                                                                        <td class="p-2">50000</td>
+                                                                        <td class="p-1"><a href="javascript: void(0);" class="fs-18 px-1"> <i class="bi bi-trash text-danger"></i></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope=" row" class="p-2">PCS</th>
+                                                                        <td class="p-2">100</td>
+                                                                        <td class="p-2">120491090</td>
+                                                                        <td class="p-2">50000</td>
+                                                                        <td class="p-1"><a href="javascript: void(0);" class="fs-18 px-1"> <i class="bi bi-trash text-danger"></i></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope=" row" class="p-2">PCS</th>
+                                                                        <td class="p-2">100</td>
+                                                                        <td class="p-2">120491090</td>
+                                                                        <td class="p-2">50000</td>
+                                                                        <td class="p-1"><a href="javascript: void(0);" class="fs-18 px-1"> <i class="bi bi-trash text-danger"></i></a></td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+
+
+                                                            <!-- </div> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
 
                                             <ul class="pager wizard mb-0 list-inline">
                                                 <li class="previous list-inline-item">
