@@ -67,3 +67,23 @@ in APPPATH\Views\zauth\login.php on line 1.
  8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
  9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:18:21 --> Invalid file: "zmaster/item.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('zmaster/item.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item', [], true)
+ 3 APPPATH\Controllers\MasterController.php(23): view('zmaster/item', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 03:20:04 --> Invalid argument supplied for foreach()
+in APPPATH\Views\zmaster\item\item.php on line 67.
+ 1 APPPATH\Views\zmaster\item\item.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\frontend-iapotek\\app\\Views\\zmaster\\item\\item.php', 67, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\frontend-iapotek\\app\\Views\\zmaster\\item\\item.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/item', [], true)
+ 5 APPPATH\Controllers\MasterController.php(23): view('zmaster/item/item', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

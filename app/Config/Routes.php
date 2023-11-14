@@ -14,6 +14,8 @@ $routes->get('/dashboard', 'HomeController::index');
 $routes->get('/point-of-sale', 'PosController::index');
 
 $routes->get('/item', 'MasterController::index');
+$routes->get('/item-detail', 'MasterController::item_detail');
+
 
 $routes->get('/purchase-list', 'PurchaseController::purchase_list');
 $routes->get('/purchase-invoice', 'PurchaseController::purchase_invoice');

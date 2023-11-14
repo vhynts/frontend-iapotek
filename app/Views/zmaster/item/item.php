@@ -64,20 +64,19 @@
 
 
                                 <tbody>
-                                    <?php foreach ($master_item as $k => $v) { ?>
 
-                                        <tr>
-                                            <!-- <td><a class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></a></td> -->
-                                            <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-pencil-square text-primary"></i></a></td>
-                                            <td><?= $v['kodeitem']; ?></td>
-                                            <td><?= $v['namaitem']; ?></td>
-                                            <td>-</td>
-                                            <td><?= $v['satuan']; ?></td>
-                                            <td><?= number_format($v['hargapokok'], 2, ',', '.'); ?></td>
-                                            <td><?= $v['dept']; ?></td>
-                                        </tr>
+                                    <tr>
+                                        <!-- <td><a class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></a></td> -->
+                                        <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-pencil-square text-primary"></i></a></td>
+                                        <td>A</td>
+                                        <td>A</td>
+                                        <td>-</td>
+                                        <td>A</td>
+                                        <td>A</td>
+                                        <td>A</td>
+                                    </tr>
 
-                                    <?php } ?>
+
 
                                 </tbody>
                             </table>

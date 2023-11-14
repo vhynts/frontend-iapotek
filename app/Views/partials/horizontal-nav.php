@@ -23,6 +23,7 @@
                                     <a href="item" class="dropdown-item">Daftar Item</a>
                                     <!-- <a href="daftar-item" class="dropdown-item">Satuan</a>
                                     <a href="daftar-item" class="dropdown-item">Jenis</a> -->
+                                    <a href="item-detail"></a>
                                 </div>
                             </div>
 
