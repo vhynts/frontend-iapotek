@@ -48,7 +48,7 @@
                             <div class="m-1">
                                 <label class="form-label">CUSTOMER</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="REGULAR">
+                                    <input type="text" id="customer" class="form-control" placeholder="REGULAR">
                                     <button class="btn btn-success" type="button"><i class="bi bi-search"></i></button>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@
                             <div class="m-1">
                                 <label class="form-label">SALES</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Internal">
+                                    <input type="text" id="sales" class="form-control" placeholder="Internal">
                                     <button class="btn btn-success" type="button"><i class="bi bi-search"></i></button>
                                 </div>
                             </div>
@@ -74,21 +74,21 @@
                             <div class="m-1">
                                 <label class="form-label" style="font-size:12px;">ITEM COCDE</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control border-0" placeholder="Enter ITEM CODE">
+                                    <input type="text" id="code" class="form-control border-0" placeholder="Enter ITEM CODE">
                                     <button class="btn btn-success" type="button"><i class="bi bi-search"></i></button>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm border">
                             <div class="m-1">
-                                <label for="example-number" class="form-label" style="font-size:12px;">QTY</label>
-                                <input class="form-control border-0" id="example-number" type="number" name="number" value=0>
+                                <label for="qty" class="form-label" style="font-size:12px;">QTY</label>
+                                <input class="form-control border-0" id="qty" type="number" name="number" value=0>
                             </div>
                         </div>
                         <div class="col border">
                             <div class="m-1">
                                 <label for="example-select" class="form-label" style="font-size:12px;">UNIT</label>
-                                <select class="form-select border-0" id="example-select">
+                                <select class="form-select border-0" id="unit">
                                     <option>BOX</option>
                                     <option>STR</option>
                                     <option>TAB</option>
@@ -98,19 +98,19 @@
                         <div class="col-sm border">
                             <div class="m-1">
                                 <label for="example-number" class="form-label" style="font-size:12px;">PRICE</label>
-                                <input class="form-control border-0" id="example-number" type="number" name="number" value=0>
+                                <input class="form-control border-0" id="price" type="number" name="number" value=0>
                             </div>
                         </div>
                         <div class="col-sm border">
                             <div class="m-1">
                                 <label for="simpleinput" class="form-label" style="font-size:12px;">DISC (%)</label>
-                                <input type="number" id="simpleinput" class="form-control border-0" value=0>
+                                <input type="number" id="disc" class="form-control border-0" value=0>
                             </div>
                         </div>
                         <div class="col-sm border">
                             <div class="m-1">
                                 <label for="example-number" class="form-label" style="font-size:12px;">SUB TOTAL</label>
-                                <input class="form-control border-0" id="example-number" type="number" name="number" value=0>
+                                <input class="form-control border-0" id="subtotal" type="number" name="number" value=0>
                             </div>
                         </div>
                     </div>
@@ -212,8 +212,8 @@
 
                     <div class="row">
                         <div class="col-sm-8 border">
-                            <label class="form-label" style="font-size:12px;">INFO</label>
-                            <input class="form-control mb-1 border-0" id="example-textarea" placeholder="Enter Info"></input>
+                            <label class="form-label" style="font-size:12px;"> INFO</label>
+                            <input class="form-control mb-1 border-0" id="info" placeholder="Enter Info"></input>
                         </div>
                         <div class="col ">
                             <div class="row ">
@@ -226,7 +226,7 @@
                             <div class="row border">
                                 <div class="col p-0 ">
                                     <div class="d-grid">
-                                        <button type="button" class="btn btn-warning btn-sm-2 btn-block"><i class="bi bi-search"></i> Search Transaction</button>
+                                        <button type="button" class="btn btn-warning btn-sm-2 btn-block p-2"><i class="bi bi-search"></i> Search Transaction</button>
                                     </div>
                                 </div>
                             </div>
@@ -234,8 +234,10 @@
                     </div>
                     <div class="row">
                         <div class="col border">
-                            1 of 2
+                            <label for="simpleinput" class="form-label" style="font-size:12px;">DISC (%)</label>
+                            <input type="number" id="disc2" class="form-control border-0" value=0>
                         </div>
+
                         <div class="col border">
                             2 of 2
                         </div>
@@ -247,7 +249,7 @@
                         </div>
                         <div class="col-sm-4 p-0 border">
                             <div class="d-grid gap-2">
-                                <button type="button" class="btn btn-success btn-lg btn-block">
+                                <button type="button" class="btn btn-success btn-lg btn-block p-3">
                                     <i class="mdi mdi-floppy"></i> Save Transaction</button>
                             </div>
                         </div>
@@ -303,7 +305,7 @@
 
 
         <!-- App js -->
-        <script src="assets/js/app.min.js"></script>
+        <!-- <script src="assets/js/app.min.js"></script> -->
 
         <script type="text/javascript">
             function showTime() {

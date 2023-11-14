@@ -32,7 +32,7 @@
 
          <div>
              <span class="text-white">Admin |</span>
-             <a href="/iapotek" class="">
+             <a href="dashboard" class="">
                  <i class="bi bi-house-door-fill text-white"></i>
                  <span class="text-white">Home</span>
              </a>
