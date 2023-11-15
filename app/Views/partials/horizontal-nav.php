@@ -53,8 +53,8 @@
 
 
                             <a href="purchase-list" class="dropdown-item"><i class="bi bi-basket"></i> &nbsp; Faktur Pembelian</a>
-                            <a href="#" class="dropdown-item"><i class="bi bi-arrow-left-square"></i> &nbsp; Retur Pembelian</a>
-                            <a href="#" class="dropdown-item"><i class="bi bi-cash-coin"></i> &nbsp; Daftar Pembayaran</a>
+                            <a href="#" class="dropdown-item disabled"><i class="bi bi-arrow-left-square"></i> &nbsp; Retur Pembelian</a>
+                            <a href="#" class="dropdown-item disabled"><i class="bi bi-cash-coin"></i> &nbsp; Daftar Pembayaran</a>
                             <a href="purchase-invoice"></a>
                             <!-- <a href="daftar-item" class="dropdown-item">Satuan</a>
                                     <a href="daftar-item" class="dropdown-item">Jenis</a> -->
@@ -73,7 +73,7 @@
                             <a href="sales-order" class="dropdown-item"><i class="bi bi-cart"></i> &nbsp; Pesanan Penjualan</a>
                             <a href="sales-list" class="dropdown-item"><i class="bi bi-cart-plus"></i> &nbsp; Faktur Penjualan</a>
                             <a href="sales-return" class="dropdown-item"><i class="bi bi-arrow-left-square"></i> &nbsp; Retur Penjualan</a>
-                            <a href="#" class="dropdown-item"><i class="bi bi-cash-coin"></i> &nbsp; Daftar Pembayaran</a>
+                            <a href="#" class="dropdown-item disabled"><i class="bi bi-cash-coin"></i> &nbsp; Daftar Pembayaran</a>
                             <a href="sales-invoice"></a>
                             <!-- <a href="daftar-item" class="dropdown-item">Satuan</a>
                                     <a href="daftar-item" class="dropdown-item">Jenis</a> -->
