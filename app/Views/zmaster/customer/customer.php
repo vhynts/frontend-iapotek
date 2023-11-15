@@ -33,7 +33,7 @@
                 </div>
 
                  <div class="col-sm">
-                    <a href="item-add" class="btn btn-primary  float-end mb-2 mt-2"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Item</a>
+                    <a href="customer-add" class="btn btn-primary  float-end mb-2 mt-2"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Item</a>
                 </div>
 
             </div>
@@ -50,12 +50,13 @@
                                 <thead class="table-primary">
                                     <tr>
                                         <th>Aksi</th>
-                                        <th>Kode Item</th>
-                                        <th>Nama Item</th>
-                                        <th>Stok</th>
-                                        <th>Satuan</th>
-                                        <th>Harga Pokok</th>
-                                        <th>Lokasi</th>
+                                        <th>Kode</th>
+                                        <th>Nama</th>
+                                        <th>Grup Pelanggan</th>
+                                        <th>Alamat</th>
+                                        <th>Kota</th>
+                                        <th>Telepon</th>
+                                        
                                     </tr>
                                 </thead>
 
@@ -65,12 +66,13 @@
                                     <tr>
                                         <!-- <td><a class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></a></td> -->
                                         <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-pencil-square text-primary"></i></a></td>
-                                        <td>A</td>
-                                        <td>A</td>
-                                        <td>-</td>
-                                        <td>A</td>
-                                        <td>A</td>
-                                        <td>A</td>
+                                        <td>0001</td>
+                                        <td>DR SONNY RIZMAWAN</td>
+                                        <td>GENERAL</td>
+                                        <td>WIKU 1 RT 06/01</td>
+                                        <td>DEMAK</td>
+                                        <td>0821219591</td>
+                                        
                                     </tr>
 
 

@@ -8,7 +8,7 @@ class MasterController extends BaseController
 {
 
 
-    public function index()
+    public function item_list()
     {
         // $masteritem = new Master_model();
 
@@ -23,7 +23,24 @@ class MasterController extends BaseController
         return view('zmaster/item/item', $data);
     }
 
-    public function item_detail()
+    public function customer_list()
+    {
+        // $masteritem = new Master_model();
+
+        $data = [
+            'title' => 'Pelanggan',
+            'sub_title' => 'Master',
+            'page_title' => 'Daftar Pelanggan',
+            // 'master_item' => $masteritem->findAll()
+        ];
+
+        // dd($data['master_item']);
+        return view('zmaster/customer/customer', $data);
+    }
+
+    
+
+    public function item_add()
     {
         // $masteritem = new Master_model();
 
@@ -35,6 +52,21 @@ class MasterController extends BaseController
         ];
 
         // dd($data['master_item']);
-        return view('zmaster/item/item_detail', $data);
+        return view('zmaster/item/item_add', $data);
+    }
+
+    public function customer_add()
+    {
+        // $masteritem = new Master_model();
+
+        $data = [
+            'title' => 'Data Customer',
+            'sub_title' => 'Master',
+            'page_title' => 'Data Customer',
+            // 'master_item' => $masteritem->findAll()
+        ];
+
+        // dd($data['master_item']);
+        return view('zmaster/customer/customer_add', $data);
     }
 }

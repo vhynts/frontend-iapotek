@@ -1,0 +1,72 @@
+CRITICAL - 2023-11-15 04:25:18 --> Invalid file: "zmaster/item/item_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('zmaster/item/item_.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/item_', [], true)
+ 3 APPPATH\Controllers\MasterController.php(23): view('zmaster/item/item_', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->item_list()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 04:25:59 --> Invalid file: "zmaster/item/item_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('zmaster/item/item_.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/item_', [], true)
+ 3 APPPATH\Controllers\MasterController.php(23): view('zmaster/item/item_', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->item_list()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 04:26:09 --> Invalid file: "zmaster/item/item_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('zmaster/item/item_.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/item_', [], true)
+ 3 APPPATH\Controllers\MasterController.php(23): view('zmaster/item/item_', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->item_list()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 04:26:29 --> Invalid file: "zmaster/item/item_.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('zmaster/item/item_.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/item_', [], true)
+ 3 APPPATH\Controllers\MasterController.php(23): view('zmaster/item/item_', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->item_list()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 04:30:22 --> Invalid file: "zmaster/item/customer_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('zmaster/item/customer_add.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/customer_add', [], true)
+ 3 APPPATH\Controllers\MasterController.php(70): view('zmaster/item/customer_add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->customer_add()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 04:30:23 --> Invalid file: "zmaster/item/customer_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('zmaster/item/customer_add.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/customer_add', [], true)
+ 3 APPPATH\Controllers\MasterController.php(70): view('zmaster/item/customer_add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->customer_add()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 04:30:23 --> Invalid file: "zmaster/item/customer_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('zmaster/item/customer_add.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/customer_add', [], true)
+ 3 APPPATH\Controllers\MasterController.php(70): view('zmaster/item/customer_add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->customer_add()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 04:30:23 --> Invalid file: "zmaster/item/customer_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('zmaster/item/customer_add.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/customer_add', [], true)
+ 3 APPPATH\Controllers\MasterController.php(70): view('zmaster/item/customer_add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->customer_add()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

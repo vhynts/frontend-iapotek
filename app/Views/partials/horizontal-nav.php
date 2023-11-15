@@ -32,7 +32,7 @@
                                     &nbsp; Pelanggan <div class="arrow-down"></div>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="topnav-auth">
-                                    <a href="#" class="dropdown-item">Daftar Pelanggan</a>
+                                    <a href="customer" class="dropdown-item">Daftar Pelanggan</a>
                                     <a href="#" class="dropdown-item">Grup Pelanggan</a>
                                 </div>
                             </div>

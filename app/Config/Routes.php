@@ -13,9 +13,11 @@ $routes->get('/dashboard', 'HomeController::index');
 
 $routes->get('/point-of-sale', 'PosController::index');
 
-$routes->get('/item', 'MasterController::index');
-$routes->get('/item-detail', 'MasterController::item_detail');
+$routes->get('/item', 'MasterController::item_list');
+$routes->get('/item-add', 'MasterController::item_add');
 
+$routes->get('/customer', 'MasterController::customer_list');
+$routes->get('/customer-add', 'MasterController::customer_add');
 
 $routes->get('/purchase-list', 'PurchaseController::purchase_list');
 $routes->get('/purchase-invoice', 'PurchaseController::purchase_invoice');
