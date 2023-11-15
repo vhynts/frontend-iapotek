@@ -21,6 +21,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="topnav-auth">
                                     <a href="item" class="dropdown-item">Daftar Item</a>
+                                    <a href="#" class="dropdown-item disabled">Kartu Stok</a>
                                     <!-- <a href="daftar-item" class="dropdown-item">Satuan</a>
                                     <a href="daftar-item" class="dropdown-item">Jenis</a> -->
                                     <a href="item-detail"></a>
@@ -35,6 +36,9 @@
                                     <a href="customer" class="dropdown-item">Daftar Pelanggan</a>
                                     <a href="customer-group" class="dropdown-item">Grup Pelanggan</a>
                                 </div>
+                            </div>
+                            <div class="dropdown">
+                                <a href="supplier" class="dropdown-item"><i class="bi bi-shop-window"></i> &nbsp; Supplier</a>
                             </div>
 
                         </div>

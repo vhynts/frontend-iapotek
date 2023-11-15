@@ -53,6 +53,21 @@ class MasterController extends BaseController
         return view('zmaster/customer/customer_group', $data);
     }
 
+    public function supplier_list()
+    {
+        // $masteritem = new Master_model();
+
+        $data = [
+            'title' => 'Supplier',
+            'sub_title' => 'Master',
+            'page_title' => 'Daftar Supplier',
+            // 'master_item' => $masteritem->findAll()
+        ];
+
+        // dd($data['master_item']);
+        return view('zmaster/supplier/supplier', $data);
+    }
+
 
 
     public function item_add()
