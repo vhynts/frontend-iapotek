@@ -60,9 +60,9 @@ class MasterController extends BaseController
         // $masteritem = new Master_model();
 
         $data = [
-            'title' => 'Data Customer',
+            'title' => 'Tambah Pelanggan',
             'sub_title' => 'Master',
-            'page_title' => 'Data Customer',
+            'page_title' => 'Tambah Pelanggan',
             // 'master_item' => $masteritem->findAll()
         ];
 

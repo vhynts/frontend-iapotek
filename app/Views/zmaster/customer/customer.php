@@ -33,7 +33,7 @@
                 </div>
 
                  <div class="col-sm">
-                    <a href="customer-add" class="btn btn-primary  float-end mb-2 mt-2"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Item</a>
+                    <a href="customer-add" class="btn btn-primary  float-end mb-2 mt-2"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Pelanggan</a>
                 </div>
 
             </div>
