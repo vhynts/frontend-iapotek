@@ -33,7 +33,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="topnav-auth">
                                     <a href="customer" class="dropdown-item">Daftar Pelanggan</a>
-                                    <a href="#" class="dropdown-item">Grup Pelanggan</a>
+                                    <a href="customer-group" class="dropdown-item">Grup Pelanggan</a>
                                 </div>
                             </div>
 

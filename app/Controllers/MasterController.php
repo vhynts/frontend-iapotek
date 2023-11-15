@@ -38,7 +38,22 @@ class MasterController extends BaseController
         return view('zmaster/customer/customer', $data);
     }
 
-    
+    public function customer_group_list()
+    {
+        // $masteritem = new Master_model();
+
+        $data = [
+            'title' => 'Grup Pelanggan',
+            'sub_title' => 'Master',
+            'page_title' => 'Grup Pelanggan',
+            // 'master_item' => $masteritem->findAll()
+        ];
+
+        // dd($data['master_item']);
+        return view('zmaster/customer/customer_group', $data);
+    }
+
+
 
     public function item_add()
     {
