@@ -130,7 +130,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bei bi-pencil-square text-primary"></i></a></td>
+                                            <td> <a href="sales-detail" class="fs-16 px-1"> <i class="bei bi-pencil-square text-primary"></i></a></td>
                                             <td>238291/JL/0723</td>
                                             <td>31/10/2023</td>
                                             <td>SONY RIZMAWAN ADI</td>

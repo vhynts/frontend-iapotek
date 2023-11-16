@@ -24,6 +24,26 @@ class SaleController extends BaseController
         return view('zsales/sales_invoice', $data);
     }
 
+    public function sales_detail()
+    {
+        $data = [
+            'title' => 'Penjualan',
+            'sub_title' => 'Penjualan',
+            'page_title' => 'Faktur Penjualan'
+        ];
+        return view('zsales/sales_detail', $data);
+    }
+
+    public function print_si()
+    {
+        $data = [
+            'title' => 'Penjualan',
+            'sub_title' => 'Penjualan',
+            'page_title' => 'Faktur Penjualan'
+        ];
+        return view('zsales/print/print_si', $data);
+    }
+
     public function sales_order()
     {
         $data = [

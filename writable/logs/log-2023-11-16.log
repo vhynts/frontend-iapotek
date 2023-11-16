@@ -1,0 +1,71 @@
+CRITICAL - 2023-11-16 04:16:30 --> include(partials/footer.php): failed to open stream: No such file or directory
+in APPPATH\Views\zsales\print\print_si.php on line 169.
+ 1 APPPATH\Views\zsales\print\print_si.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(partials/footer.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\frontend-iapotek\\app\\Views\\zsales\\print\\print_si.php', 169, [...])
+ 2 APPPATH\Views\zsales\print\print_si.php(169): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\frontend-iapotek\\app\\Views\\zsales\\print\\print_si.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zsales/print/print_si', [], true)
+ 6 APPPATH\Controllers\SaleController.php(44): view('zsales/print/print_si', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SaleController->print_si()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 04:16:32 --> include(partials/footer.php): failed to open stream: No such file or directory
+in APPPATH\Views\zsales\print\print_si.php on line 169.
+ 1 APPPATH\Views\zsales\print\print_si.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(partials/footer.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\frontend-iapotek\\app\\Views\\zsales\\print\\print_si.php', 169, [...])
+ 2 APPPATH\Views\zsales\print\print_si.php(169): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\frontend-iapotek\\app\\Views\\zsales\\print\\print_si.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zsales/print/print_si', [], true)
+ 6 APPPATH\Controllers\SaleController.php(44): view('zsales/print/print_si', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SaleController->print_si()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 04:24:12 --> syntax error, unexpected '?>'
+in APPPATH\Views\partials\template2.php on line 19.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('partials/template2', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zsales/print/print_si', [], true)
+ 4 APPPATH\Controllers\SaleController.php(44): view('zsales/print/print_si', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SaleController->print_si()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 04:24:26 --> syntax error, unexpected '?>'
+in APPPATH\Views\partials\template2.php on line 28.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('partials/template2', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zsales/print/print_si', [], true)
+ 4 APPPATH\Controllers\SaleController.php(44): view('zsales/print/print_si', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SaleController->print_si()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 05:24:46 --> syntax error, unexpected '?>'
+in APPPATH\Views\zsales\print\print_si.php on line 287.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zsales/print/print_si', [], true)
+ 3 APPPATH\Controllers\SaleController.php(44): view('zsales/print/print_si', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SaleController->print_si()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 05:24:48 --> syntax error, unexpected '?>'
+in APPPATH\Views\zsales\print\print_si.php on line 287.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zsales/print/print_si', [], true)
+ 3 APPPATH\Controllers\SaleController.php(44): view('zsales/print/print_si', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SaleController->print_si()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 05:24:48 --> syntax error, unexpected '?>'
+in APPPATH\Views\zsales\print\print_si.php on line 287.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zsales/print/print_si', [], true)
+ 3 APPPATH\Controllers\SaleController.php(44): view('zsales/print/print_si', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SaleController->print_si()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

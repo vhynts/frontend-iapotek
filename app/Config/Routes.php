@@ -27,5 +27,7 @@ $routes->get('/purchase-invoice', 'PurchaseController::purchase_invoice');
 
 $routes->get('/sales-list', 'SaleController::sales_list');
 $routes->get('/sales-invoice', 'SaleController::sales_invoice');
+$routes->get('/sales-detail', 'SaleController::sales_detail');
+$routes->get('/print-si', 'SaleController::print_si');
 $routes->get('/sales-order', 'SaleController::sales_order');
 $routes->get('/sales-return', 'SaleController::sales_return');
