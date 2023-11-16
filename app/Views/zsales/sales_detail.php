@@ -203,7 +203,11 @@
                                                 <tr>
                                                     <th scope=" row">1</th>
                                                     <!-- <td>10013164</td> -->
-                                                    <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
+
+                                                    <td>
+                                                        <b>08912</b> <br />
+                                                        TIDIFAR 400 MG BOX 10 STR @ 10 TAB
+                                                    </td>
                                                     <td>5</td>
                                                     <td>BOX</td>
                                                     <td>98.000</td>

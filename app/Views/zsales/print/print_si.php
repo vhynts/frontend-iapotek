@@ -65,35 +65,46 @@
                         <div class="col-sm-5 ">
                             <div class="row">
                                 <div class="col-sm-4 ">
-                                    <p class="fs-13 mb-1 mt-2"><strong>No. Faktur </strong> </p>
+                                    <p class="fs-14 mb-1 mt-2"><strong>No. Faktur </strong> </p>
                                 </div>
                                 <div class="col-sm-1 ">
-                                    <p class="fs-13 mb-1 mt-2"><strong>: </strong></p>
+                                    <p class="fs-14 mb-1 mt-2"><strong>: </strong></p>
                                 </div>
                                 <div class="col-sm-6 ">
-                                    <p class="fs-13 mb-1 mt-2"><span>9898/JL/UTM/1123</span></p>
+                                    <p class="fs-14 mb-1 mt-2"><span>9898/JL/UTM/1123</span></p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-4 ">
-                                    <p class="fs-13 mb-1 mt-1"><strong>Tanggal </strong> </p>
+                                    <p class="fs-14 mb-1 mt-1"><strong>Tanggal </strong> </p>
                                 </div>
                                 <div class="col-sm-1 ">
-                                    <p class="fs-13 mb-1 mt-1"><strong>: </strong></p>
+                                    <p class="fs-14 mb-1 mt-1"><strong>: </strong></p>
                                 </div>
                                 <div class="col-sm-6 ">
-                                    <p class="fs-13 mb-1 mt-1"><span>12-08-2023</span></p>
+                                    <p class="fs-14 mb-1 mt-1"><span>12-08-2023</span></p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-4 ">
-                                    <p class="fs-13 mb-1 mt-1"><strong>Sales </strong> </p>
+                                    <p class="fs-14 mb-1 mt-1"><strong>Jatuh Tempo </strong> </p>
                                 </div>
                                 <div class="col-sm-1 ">
-                                    <p class="fs-13 mb-1 mt-1"><strong>: </strong></p>
+                                    <p class="fs-14 mb-1 mt-1"><strong>: </strong></p>
                                 </div>
                                 <div class="col-sm-6 ">
-                                    <p class="fs-13 mb-1 mt-1"><span>SONY</span></p>
+                                    <p class="fs-14 mb-1 mt-1"><span>12-08-2023</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 ">
+                                    <p class="fs-14 mb-1 mt-1"><strong>Sales </strong> </p>
+                                </div>
+                                <div class="col-sm-1 ">
+                                    <p class="fs-14 mb-1 mt-1"><strong>: </strong></p>
+                                </div>
+                                <div class="col-sm-6 ">
+                                    <p class="fs-14 mb-1 mt-1"><span>SONY</span></p>
                                 </div>
                             </div>
 
@@ -117,24 +128,24 @@
 
                             <div class="row">
                                 <div class="col-sm-3 ">
-                                    <p class="fs-13 mb-1 mt-2"><strong>Pelanggan </strong> </p>
+                                    <p class="fs-14 mb-1 mt-2"><strong>Pelanggan </strong> </p>
                                 </div>
                                 <div class="col-sm-1 ">
-                                    <p class="fs-13 mb-1 mt-2"><strong>: </strong></p>
+                                    <p class="fs-14 mb-1 mt-2"><strong>: </strong></p>
                                 </div>
                                 <div class="col-sm-8 ">
-                                    <p class="fs-13 mb-1 mt-2"><span>SONNY RIZMAWAN ADI</span></p>
+                                    <p class="fs-14 mb-1 mt-2"><span>SONNY RIZMAWAN ADI</span></p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-3 ">
-                                    <p class="fs-13 mb-1 mt-1"><strong>Alamat </strong> </p>
+                                    <p class="fs-14 mb-1 mt-1"><strong>Alamat </strong> </p>
                                 </div>
                                 <div class="col-sm-1 ">
-                                    <p class="fs-13 mb-1 mt-1"><strong>: </strong></p>
+                                    <p class="fs-14 mb-1 mt-1"><strong>: </strong></p>
                                 </div>
                                 <div class="col-sm-8 ">
-                                    <p class="fs-13 mb-1 mt-1"><span>PERUMAHAN WIKU 1 RT 06/01 WONOSALAM, DEMAK</span></p>
+                                    <p class="fs-14 mb-1 mt-1"><span>PERUMAHAN WIKU 1 RT 06/01 WONOSALAM, DEMAK</span></p>
                                 </div>
                             </div>
                             <!-- <div class="row">
@@ -163,7 +174,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="table-responsive">
-                                <table class="table table-sm table-centered table-hover table-borderless mb-0 mt-3">
+                                <table class="table table-sm table-centered mb-0 mt-3">
                                     <thead class="border-top border-bottom bg-secondary-subtle border-light">
                                         <tr>
                                             <th>#</th>
@@ -171,6 +182,7 @@
                                             <th>Qty</th>
                                             <th>Satuan</th>
                                             <th>Harga</th>
+                                            <th>Potongan</th>
                                             <th class="text-end">Total</th>
                                         </tr>
                                     </thead>
@@ -178,52 +190,51 @@
                                         <tr>
                                             <td class="">1</td>
                                             <td>
-                                                <!-- <b>Laptop</b> <br /> -->
+                                                <b>08912</b> <br />
                                                 ANAKONIDIN SYR 160ML
                                             </td>
                                             <td>1</td>
                                             <td>BTL</td>
                                             <td>15.000</td>
+                                            <td>0</td>
                                             <td class="text-end">15.000</td>
                                         </tr>
                                         <tr>
                                             <td class="">1</td>
                                             <td>
-                                                <!-- <b>Laptop</b> <br /> -->
+                                                <b>08912</b> <br />
                                                 ANAKONIDIN SYR 160ML
                                             </td>
                                             <td>1</td>
                                             <td>BTL</td>
                                             <td>15.000</td>
+                                            <td>0</td>
                                             <td class="text-end">15.000</td>
                                         </tr>
                                         <tr>
                                             <td class="">1</td>
                                             <td>
-                                                <!-- <b>Laptop</b> <br /> -->
+                                                <b>08912</b> <br />
                                                 ANAKONIDIN SYR 160ML
                                             </td>
                                             <td>1</td>
                                             <td>BTL</td>
                                             <td>15.000</td>
+                                            <td>0</td>
                                             <td class="text-end">15.000</td>
                                         </tr>
                                         <tr>
                                             <td class="">1</td>
                                             <td>
-                                                <!-- <b>Laptop</b> <br /> -->
+                                                <b>08912</b> <br />
                                                 ANAKONIDIN SYR 160ML
                                             </td>
                                             <td>1</td>
                                             <td>BTL</td>
                                             <td>15.000</td>
+                                            <td>0</td>
                                             <td class="text-end">15.000</td>
                                         </tr>
-
-
-
-
-
 
                                     </tbody>
                                 </table>
@@ -236,8 +247,8 @@
 
                     <div class="row mt-3 ">
                         <div class="col-sm-7 ">
-                            <p class="fs-13 mb-1 mt-2"><strong>Keterangan : </strong> </p>
-                            <p class="fs-13 ">-</p>
+                            <p class="fs-14 mb-1 mt-2"><strong>Keterangan : </strong> </p>
+                            <p class="fs-14 ">-</p>
                             <!-- <div class="clearfix pt-3">
                                 <h6 class="text-muted fs-14">Notes:</h6>
                                 <small>
@@ -257,57 +268,57 @@
                                 <h3>Rp. 16.650,-</h3> -->
                                 <div class="row">
                                     <div class="col-sm-6 ">
-                                        <p class="fs-13 mb-1 mt-2 text-end"><strong>Jml. Item </strong> </p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><strong>Jml. Item </strong> </p>
                                     </div>
                                     <div class="col-sm-1 ">
-                                        <p class="fs-13 mb-1 mt-2 text-end"><strong>: </strong></p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><strong>: </strong></p>
                                     </div>
                                     <div class="col-sm-5 ">
-                                        <p class="fs-13 mb-1 mt-2 text-end"><span>1</span></p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><span>1</span></p>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6 ">
-                                        <p class="fs-13 mb-1 mt-2 text-end"><strong>Sub-total </strong> </p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><strong>Sub-total </strong> </p>
                                     </div>
                                     <div class="col-sm-1 ">
-                                        <p class="fs-13 mb-1 mt-2 text-end"><strong>: </strong></p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><strong>: </strong></p>
                                     </div>
                                     <div class="col-sm-5 ">
-                                        <p class="fs-13 mb-1 mt-2 text-end"><span>15.000</span></p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><span>15.000</span></p>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6 ">
-                                        <p class="fs-13 mb-1 mt-2 text-end"><strong>Potongan </strong> </p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><strong>Potongan </strong> </p>
                                     </div>
                                     <div class="col-sm-1 ">
-                                        <p class="fs-13 mb-1 mt-2 text-end"><strong>: </strong></p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><strong>: </strong></p>
                                     </div>
                                     <div class="col-sm-5 ">
-                                        <p class="fs-13 mb-1 mt-2 text-end"><span>0</span></p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><span>0</span></p>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6 ">
-                                        <p class="fs-13 mb-1 mt-1 text-end"><strong>Pajak </strong> </p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><strong>Pajak </strong> </p>
                                     </div>
                                     <div class="col-sm-1 ">
-                                        <p class="fs-13 mb-1 mt-1 text-end"><strong>: </strong></p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><strong>: </strong></p>
                                     </div>
                                     <div class="col-sm-5 ">
-                                        <p class="fs-13 mb-1 mt-1 text-end"><span>1650</span></p>
+                                        <p class="fs-14 mb-1 mt-1 text-end"><span>1650</span></p>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6 ">
-                                        <p class="fs-15 mb-1 mt-1 text-end"><strong>Total </strong> </p>
+                                        <p class="fs-16 mb-1 mt-1 text-end"><strong>Total </strong> </p>
                                     </div>
                                     <div class="col-sm-1 ">
-                                        <p class="fs-15 mb-1 mt-1 text-end"><strong>: </strong></p>
+                                        <p class="fs-16 mb-1 mt-1 text-end"><strong>: </strong></p>
                                     </div>
                                     <div class="col-sm-5 ">
-                                        <p class="fs-15 mb-1 mt-1 text-end"><strong><u>16.650</u></strong></p>
+                                        <p class="fs-16 mb-1 mt-1 text-end"><strong><u>16.650.000</u></strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -316,10 +327,14 @@
                     </div>
                     <!-- end row-->
 
-                    <div class="d-print-none mt-4">
+
+                    <div class="d-print-none mt-4 border">
                         <div class="text-center">
+                            <button onclick="history.back()" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Kembali</button>
                             <a href="javascript:window.print()" class="btn btn-success"><i class="ri-printer-line"></i> Print</a>
+
                         </div>
+
                     </div>
                     <!-- end buttons -->
 
