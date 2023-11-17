@@ -67,8 +67,8 @@
                             <div class="row">
                                 <div class="col-sm m-1 rounded-3 border">
                                     <div class="mt-1 mb-1">
-                                        <label for="example-disable" class="form-label">No Transaksi</label>
-                                        <input type="text" class="form-control" id="example-disable" disabled="" value="6204/BL/1023">
+                                        <label for="no-transaksi" class="form-label">No Transaksi</label>
+                                        <input type="text" class="form-control" id="no-transaksi" disabled="" value="6204/BL/1023">
                                     </div>
 
 
@@ -112,10 +112,10 @@
                                 <div class="col-sm m-1 rounded-3 border">
                                     <div class="mb-1 mt-1">
 
-                                        <label for="example-disable" class="form-label">Pesanan</label>
+                                        <label for="pesanan" class="form-label">Pesanan</label>
                                         <div class="input-group mb-1">
 
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="">
+                                            <input type="text" class="form-control" id="pesanan" disabled="" value="">
                                             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#bs-example-modal-lg"><i class="bi bi-search"></i></button>
 
                                             <!-- MODALLL -->
@@ -148,7 +148,7 @@
                                         <div class="row">
                                             <div class="mb-1 col-sm-6">
                                                 <label class="form-label">Jatuh Tempo</label>
-                                                <input type="number" class="form-control" id="example-disable" value="0">
+                                                <input type="number" class="form-control" id="jt" value="0">
                                             </div>
                                             <div class="mb-1 col-sm-6">
                                                 <label class="form-label">Tanggal Jatuh Tempo</label>
@@ -163,16 +163,16 @@
                                 </div>
                                 <div class="col-sm mt-1 mb-1 mx-1 rounded-3 border">
                                     <label for="example-textarea" class="form-label mt-1">Keterangan</label>
-                                    <textarea class="form-control mb-2" id="example-textarea" rows="4"></textarea>
+                                    <textarea class="form-control mb-2" id="keterangan" rows="4"></textarea>
 
                                     <div class="row ">
                                         <div class="col-sm mb-1">
                                             <label for="example-disable" class="form-label">User</label>
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="Admin">
+                                            <input type="text" class="form-control" id="user" disabled="" value="Admin">
                                         </div>
                                         <div class="col-sm mb-1">
                                             <label for="example-disable" class="form-label">Lokasi</label>
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="Demak">
+                                            <input type="text" class="form-control" id="lokasi" disabled="" value="Demak">
                                         </div>
                                     </div>
                                 </div>
@@ -230,12 +230,12 @@
                                         <div class="col-sm-8 mb-1 ">
                                         </div>
                                         <div class="col-sm-1 mb-1">
-                                            <label for="example-disable" class="form-label ">Total Qty</label>
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="102">
+                                            <label for="total-qty" class="form-label ">Total Qty</label>
+                                            <input type="text" class="form-control" id="total-qty" disabled="" value="102">
                                         </div>
                                         <div class="col-sm-3 mb-1">
-                                            <label for="example-disable" class="form-label">Sub Total</label>
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="100.000">
+                                            <label for="sub-total" class="form-label">Sub Total</label>
+                                            <input type="text" class="form-control" id="sub-total" disabled="" value="100.000">
                                         </div>
 
                                     </div>
@@ -247,11 +247,11 @@
                                         </div>
                                         <div class="col-sm-1 mb-1">
                                             <label for="example-disable" class="form-label">Potongan</label>
-                                            <input type="number" class="form-control" id="example-disable" value="0">
+                                            <input type="number" class="form-control" id="potongan" value="0">
                                         </div>
                                         <div class="col-sm-3 mb-1">
-                                            <label for="example-disable" class="form-label">Total Potongan</label>
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="0">
+                                            <label for="total-potongan" class="form-label">Total Potongan</label>
+                                            <input type="text" class="form-control" id="total-potongan" disabled="" value="0">
                                         </div>
 
 
@@ -263,12 +263,12 @@
                                         <div class="col-sm-8 mb-1 ">
                                         </div>
                                         <div class="col-sm-1 mb-1">
-                                            <label for="example-disable" class="form-label">Pajak</label>
-                                            <input type="number" class="form-control" id="example-disable" value="11">
+                                            <label for="pajak" class="form-label">Pajak</label>
+                                            <input type="number" class="form-control" id="pajak" value="11">
                                         </div>
                                         <div class="col-sm-3 mb-1">
-                                            <label for="example-disable" class="form-label">Total Pajak</label>
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="50.000">
+                                            <label for="total-pajak" class="form-label">Total Pajak</label>
+                                            <input type="text" class="form-control" id="total-pajak" disabled="" value="50.000">
                                         </div>
 
 
@@ -280,8 +280,8 @@
                                         <div class="col-sm-8 mb-1 ">
                                         </div>
                                         <div class="col-sm-4 mb-3 ">
-                                            <label for="example-disable" class="form-label">Total Akhir</label>
-                                            <input type="text" class="form-control fw-bold fs-3" id="example-disable" disabled="" value="150.000">
+                                            <label for="total-akhir" class="form-label">Total Akhir</label>
+                                            <input type="text" class="form-control fw-bold fs-3" id="total-akhir" disabled="" value="150.000">
                                         </div>
 
 
