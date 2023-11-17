@@ -245,15 +245,18 @@
                                     </tr>
 
                                     <tr>
-                                        <th scope=" row">1</th>
+                                        <th scope=" row" style=" vertical-align: middle;">1</th>
                                         <!-- <td>10013164</td> -->
-                                        <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
-                                        <td>5</td>
-                                        <td>BOX</td>
-                                        <td>98.000</td>
-                                        <td>0</td>
-                                        <td>490.000</td>
-                                        <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-trash-fill text-danger"></i></a></td>
+                                        <td style=" vertical-align: middle;">
+                                            <b>08912</b> <br />
+                                            TIDIFAR 400 MG BOX 10 STR @ 10 TAB
+                                        </td>
+                                        <td style=" vertical-align: middle;">5</td>
+                                        <td style=" vertical-align: middle;">BOX</td>
+                                        <td style=" vertical-align: middle;">98.000</td>
+                                        <td style=" vertical-align: middle;">0</td>
+                                        <td style=" vertical-align: middle;">490.000</td>
+                                        <td style=" vertical-align: middle;"> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-trash-fill text-danger"></i></a></td>
                                     </tr>
 
 
