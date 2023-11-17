@@ -102,7 +102,10 @@
                                         </div>
 
                                     </div>
-                                    <div class="col-sm m-1  rounded-3">
+
+
+
+                                    <div class=" col-sm m-1  rounded-3">
                                         <div class="row mb-2 mt-2">
                                             <label class="col-sm-3 col-form-label" for="userName">Telepon</label>
                                             <div class="col-md">
@@ -151,78 +154,18 @@
                                                 <textarea class="form-control" id="example-textarea" rows="3"></textarea>
                                             </div>
                                         </div>
-
-
-                                    </div>
-                                    <div class="col-sm m-1  rounded-3">
-                                        <div class="row mb-2 mt-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Limit Piutang</label>
-                                            <div class="col-md">
-                                                <input type="number" id="limit1" class="form-control" name="userName" value="">
-
-                                            </div>
-                                        </div>
-                                        <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Limit Hari Piutang</label>
-                                            <div class="col-md-6">
-                                                <input type="number" class="form-control" id="userName" name="userName" value="">
-                                                <p class="text-muted float-end"><small>0 = Tanpa Limit</small></p>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-2 mt-1   ">
-                                            <label class="col-sm-3 col-form-label" for="userName">Grup Pelanggan</label>
-                                            <div class="col-md">
-                                                <select class="form-control select2" data-toggle="select2">
-                                                    <option>-</option>
-
-                                                    <option value="">SONY</option>
-                                                    <option value="">RIZMAWAN</option>
-
-
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Tipe Potongan</label>
-                                            <div class="col-md">
-                                                <select class="form-control select2" data-toggle="select2">
-                                                    <option>-</option>
-
-                                                    <option value="">SONY</option>
-                                                    <option value="">RIZMAWAN</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-2 mt-1   ">
-                                            <label class="col-sm-3 col-form-label" for="userName">Wilayah</label>
-                                            <div class="col-md">
-                                                <select class="form-control select2" data-toggle="select2">
-                                                    <option>-</option>
-
-                                                    <option value="">SONY</option>
-                                                    <option value="">RIZMAWAN</option>
-
-
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Sub Wilayah</label>
-                                            <div class="col-md">
-                                                <select class="form-control select2" data-toggle="select2">
-                                                    <option>-</option>
-
-                                                    <option value="">SONY</option>
-                                                    <option value="">RIZMAWAN</option>
-                                                </select>
-                                            </div>
-                                        </div>
-
-
                                         <div class="col-sm">
                                             <a href="customer-add" class="btn btn-success  float-end mb-2 mt-2"><i class="bi bi-send"></i> &nbsp; Simpan</a>
                                         </div>
+
+
                                     </div>
+                                    <!-- <div class="col-sm m-1 border rounded-3">
+
+
+
+
+                                    </div> -->
 
 
 

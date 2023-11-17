@@ -32,8 +32,8 @@
                     <h4 class="page-title mt-3"><?php isset($page_title) ? print $page_title : ''; ?></h4>
                 </div>
 
-                 <div class="col-sm">
-                    <a href="item-add" class="btn btn-primary  float-end mb-2 mt-2"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Item</a>
+                <div class="col-sm">
+                    <a href="item-add" class="btn btn-primary  float-end mb-2 mt-2 disabled"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Item</a>
                 </div>
 
             </div>

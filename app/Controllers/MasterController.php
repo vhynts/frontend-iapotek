@@ -99,4 +99,19 @@ class MasterController extends BaseController
         // dd($data['master_item']);
         return view('zmaster/customer/customer_add', $data);
     }
+
+    public function supplier_add()
+    {
+        // $masteritem = new Master_model();
+
+        $data = [
+            'title' => 'Tambah Supplier',
+            'sub_title' => 'Master',
+            'page_title' => 'Tambah Supplier',
+            // 'master_item' => $masteritem->findAll()
+        ];
+
+        // dd($data['master_item']);
+        return view('zmaster/supplier/supplier_add', $data);
+    }
 }

@@ -10,7 +10,7 @@
 <div class="navbar-custom">
     <div class="topbar container-fluid ">
 
-        <a type="button" href="point-of-sale" class="btn btn-outline-success hidebtnmobile"><i class="bi bi-cart mx-1"></i> Point of Sale</a>
+        <a type="button" href="point-of-sale" class="btn btn-success hidebtnmobile"><i class="bi bi-cart mx-1"></i> Point of Sale</a>
         </span>
 
 

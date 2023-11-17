@@ -21,6 +21,7 @@ $routes->get('/customer-add', 'MasterController::customer_add');
 $routes->get('/customer-group', 'MasterController::customer_group_list');
 
 $routes->get('/supplier', 'MasterController::supplier_list');
+$routes->get('/supplier-add', 'MasterController::supplier_add');
 
 $routes->get('/purchase-list', 'PurchaseController::purchase_list');
 $routes->get('/purchase-invoice', 'PurchaseController::purchase_invoice');
