@@ -56,7 +56,7 @@
                                                      your
                                                      password?</small></a>
                                              <label for="password" class="form-label">Password</label>
-                                             <input class="form-control" type="password" id="password" placeholder="Enter password">
+                                             <input class="form-control" type="current-password" id="password" placeholder="Enter password">
                                          </div>
                                          <div class="mb-3">
                                              <div class="form-check">

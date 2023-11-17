@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Models\Master_model;
 
 class MasterController extends BaseController
 {

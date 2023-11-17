@@ -5,7 +5,6 @@
 <link href="<?= base_url('assets/css/vendor/dataTables.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?= base_url('assets/css/vendor/responsive.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?= base_url('assets/css/vendor/fixedColumns.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
-<link href="<?= base_url('assets/css/vendor/fixedHeader.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?= base_url('assets/css/vendor/buttons.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?= base_url('assets/css/vendor/select.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <?= $this->endSection(); ?>
@@ -45,38 +44,40 @@
                         </div> -->
 
                         <div class="card-body">
-                            <!-- <div class="table-responsive"></div> -->
-                            <table id="alternative-page-datatable" class="table table-striped dt-responsive nowrap w-100">
-                                <thead class="table-primary">
-                                    <tr>
-                                        <th>Aksi</th>
-                                        <th>Kode Item</th>
-                                        <th>Nama Item</th>
-                                        <th>Stok</th>
-                                        <th>Satuan</th>
-                                        <th>Harga Pokok</th>
-                                        <th>Lokasi</th>
-                                    </tr>
-                                </thead>
+                            <div class="table-responsive">
+                                <table id="table-item" class="table table-striped dt-responsive nowrap w-100">
+                                    <thead class="table-primary">
+                                        <tr>
+                                            <th>Aksi</th>
+                                            <th>Kode Item</th>
+                                            <th>Nama Item</th>
+                                            <th>Stok</th>
+                                            <th>Satuan</th>
+                                            <th>Harga Pokok</th>
+                                            <th>Lokasi</th>
+                                        </tr>
+                                    </thead>
 
 
-                                <tbody>
+                                    <tbody>
 
-                                    <tr>
-                                        <!-- <td><a class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></a></td> -->
-                                        <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-pencil-square text-primary"></i></a></td>
-                                        <td>A</td>
-                                        <td>A</td>
-                                        <td>-</td>
-                                        <td>A</td>
-                                        <td>A</td>
-                                        <td>A</td>
-                                    </tr>
+                                        <tr>
+                                            <!-- <td><a class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></a></td> -->
+                                            <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-pencil-square text-primary"></i></a></td>
+                                            <td>A</td>
+                                            <td>A</td>
+                                            <td>-</td>
+                                            <td>A</td>
+                                            <td>A</td>
+                                            <td>A</td>
+                                        </tr>
 
 
 
-                                </tbody>
-                            </table>
+                                    </tbody>
+                                </table>
+                            </div>
+
 
                         </div> <!-- end card body-->
                     </div> <!-- end card -->
@@ -110,7 +111,6 @@
 <script src="<?= base_url('assets/js/vendor/dataTables.responsive.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/responsive.bootstrap5.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/fixedColumns.bootstrap5.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/vendor/dataTables.fixedHeader.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/dataTables.buttons.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/buttons.bootstrap5.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/buttons.php5.min.js'); ?>"></script>
@@ -119,8 +119,7 @@
 <script src="<?= base_url('assets/js/vendor/dataTables.keyTable.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/dataTables.select.min.js'); ?>"></script>
 
-<!-- Datatable Demo Aapp js -->
-<script src="<?= base_url('assets/js/pages/datatable.init.js'); ?>"></script>
+
 
 <!-- App js -->
 <script src="<?= base_url('assets/js/app.min.js'); ?>"></script>

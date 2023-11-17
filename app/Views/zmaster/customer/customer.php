@@ -5,7 +5,6 @@
 <link href="<?= base_url('assets/css/vendor/dataTables.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?= base_url('assets/css/vendor/responsive.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?= base_url('assets/css/vendor/fixedColumns.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
-<link href="<?= base_url('assets/css/vendor/fixedHeader.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?= base_url('assets/css/vendor/buttons.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?= base_url('assets/css/vendor/select.bootstrap5.min.css'); ?>" rel="stylesheet" type="text/css" />
 <?= $this->endSection(); ?>
@@ -32,7 +31,7 @@
                     <h4 class="page-title mt-3"><?php isset($page_title) ? print $page_title : ''; ?></h4>
                 </div>
 
-                 <div class="col-sm">
+                <div class="col-sm">
                     <a href="customer-add" class="btn btn-primary  float-end mb-2 mt-2"><i class="bi bi-plus-circle"></i> &nbsp; Tambah Pelanggan</a>
                 </div>
 
@@ -46,7 +45,7 @@
 
                         <div class="card-body">
                             <!-- <div class="table-responsive"></div> -->
-                            <table id="alternative-page-datatable" class="table table-striped dt-responsive nowrap w-100">
+                            <table id="table-customer" class="table table-striped dt-responsive nowrap w-100">
                                 <thead class="table-primary">
                                     <tr>
                                         <th>Aksi</th>
@@ -56,7 +55,7 @@
                                         <th>Alamat</th>
                                         <th>Kota</th>
                                         <th>Telepon</th>
-                                        
+
                                     </tr>
                                 </thead>
 
@@ -72,7 +71,7 @@
                                         <td>WIKU 1 RT 06/01</td>
                                         <td>DEMAK</td>
                                         <td>0821219591</td>
-                                        
+
                                     </tr>
 
 
@@ -112,7 +111,6 @@
 <script src="<?= base_url('assets/js/vendor/dataTables.responsive.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/responsive.bootstrap5.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/fixedColumns.bootstrap5.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/vendor/dataTables.fixedHeader.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/dataTables.buttons.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/buttons.bootstrap5.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/buttons.php5.min.js'); ?>"></script>
@@ -121,8 +119,7 @@
 <script src="<?= base_url('assets/js/vendor/dataTables.keyTable.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/vendor/dataTables.select.min.js'); ?>"></script>
 
-<!-- Datatable Demo Aapp js -->
-<script src="<?= base_url('assets/js/pages/datatable.init.js'); ?>"></script>
+
 
 <!-- App js -->
 <script src="<?= base_url('assets/js/app.min.js'); ?>"></script>

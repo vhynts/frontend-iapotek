@@ -49,106 +49,106 @@
 
                                     <div class="col-sm m-1  rounded-3">
                                         <div class="row mb-2 mt-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Kode</label>
+                                            <label class="col-sm-3 col-form-label" for="code">Kode</label>
                                             <div class="col-md-6">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="" disabled>
+                                                <input type="text" class="form-control" id="code" name="code" value="" disabled>
                                             </div>
 
                                         </div>
 
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Nama</label>
+                                            <label class="col-sm-3 col-form-label" for="name">Nama</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <input type="text" class="form-control" id="name" name="name" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Alamat</label>
+                                            <label class="col-sm-3 col-form-label" for="address">Alamat</label>
                                             <div class="col-md">
-                                                <textarea class="form-control" id="example-textarea" rows="3"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Kota</label>
-                                            <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
-                                            </div>
-                                        </div>
-                                        <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Provinsi</label>
-                                            <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <textarea class="form-control" id="address" rows="3"></textarea>
                                             </div>
                                         </div>
 
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Negara</label>
-                                            <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="INDONESIA">
-                                            </div>
-                                        </div>
-                                        <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Kode Pos</label>
+                                            <label class="col-sm-3 col-form-label" for="city">Kota</label>
                                             <div class="col-md">
                                                 <input type="text" class="form-control" id="userName" name="userName" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Fax</label>
+                                            <label class="col-sm-3 col-form-label" for="province">Provinsi</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <input type="text" class="form-control" id="province" name="province" value="">
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-2">
+                                            <label class="col-sm-3 col-form-label" for="country">Negara</label>
+                                            <div class="col-md">
+                                                <input type="text" class="form-control" id="country" name="country" value="INDONESIA">
+                                            </div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <label class="col-sm-3 col-form-label" for="postal-code">Kode Pos</label>
+                                            <div class="col-md">
+                                                <input type="text" class="form-control" id="postal-code" name="postal-code" value="">
+                                            </div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <label class="col-sm-3 col-form-label" for="fax">Fax</label>
+                                            <div class="col-md">
+                                                <input type="text" class="form-control" id="fax" name="fax" value="">
                                             </div>
                                         </div>
 
                                     </div>
                                     <div class="col-sm m-1  rounded-3">
                                         <div class="row mb-2 mt-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Telepon</label>
+                                            <label class="col-sm-3 col-form-label" for="telp">Telepon</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <input type="text" class="form-control" id="telp" name="telp" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Email</label>
+                                            <label class="col-sm-3 col-form-label" for="email">Email</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <input type="text" class="form-control" id="email" name="email" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Kontak</label>
+                                            <label class="col-sm-3 col-form-label" for="contact">Kontak</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <input type="text" class="form-control" id="contact" name="contact" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">No. Rek</label>
+                                            <label class="col-sm-3 col-form-label" for="account">No. Rek</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <input type="text" class="form-control" id="account" name="account" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Rek. A/N</label>
+                                            <label class="col-sm-3 col-form-label" for="account1">Rek. A/N</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <input type="text" class="form-control" id="account1" name="account1" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Bank</label>
+                                            <label class="col-sm-3 col-form-label" for="bank">Bank</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <input type="text" class="form-control" id="bank" name="bank" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">NPWP</label>
+                                            <label class="col-sm-3 col-form-label" for="npwp">NPWP</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
+                                                <input type="text" class="form-control" id="npwp" name="npwp" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Keterangan</label>
+                                            <label class="col-sm-3 col-form-label" for="info">Keterangan</label>
                                             <div class="col-md">
-                                                <textarea class="form-control" id="example-textarea" rows="3"></textarea>
+                                                <textarea class="form-control" id="info" rows="3"></textarea>
                                             </div>
                                         </div>
 
@@ -156,21 +156,21 @@
                                     </div>
                                     <div class="col-sm m-1  rounded-3">
                                         <div class="row mb-2 mt-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Limit Piutang</label>
+                                            <label class="col-sm-3 col-form-label" for="limit1">Limit Piutang</label>
                                             <div class="col-md">
-                                                <input type="number" id="limit1" class="form-control" name="userName" value="">
+                                                <input type="number" id="limit1" class="form-control" name="limit1" value="">
 
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Limit Hari Piutang</label>
+                                            <label class="col-sm-3 col-form-label" for="limit2">Limit Hari Piutang</label>
                                             <div class="col-md-6">
-                                                <input type="number" class="form-control" id="userName" name="userName" value="">
+                                                <input type="number" class="form-control" id="limit2" name="limit2" value="">
                                                 <p class="text-muted float-end"><small>0 = Tanpa Limit</small></p>
                                             </div>
                                         </div>
                                         <div class="row mb-2 mt-1   ">
-                                            <label class="col-sm-3 col-form-label" for="userName">Grup Pelanggan</label>
+                                            <label class="col-sm-3 col-form-label" for="customer-group">Grup Pelanggan</label>
                                             <div class="col-md">
                                                 <select class="form-control select2" data-toggle="select2">
                                                     <option>-</option>
@@ -183,7 +183,7 @@
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Tipe Potongan</label>
+                                            <label class="col-sm-3 col-form-label" for="customer-type">Tipe Potongan</label>
                                             <div class="col-md">
                                                 <select class="form-control select2" data-toggle="select2">
                                                     <option>-</option>
@@ -194,7 +194,7 @@
                                             </div>
                                         </div>
                                         <div class="row mb-2 mt-1   ">
-                                            <label class="col-sm-3 col-form-label" for="userName">Wilayah</label>
+                                            <label class="col-sm-3 col-form-label" for="region">Wilayah</label>
                                             <div class="col-md">
                                                 <select class="form-control select2" data-toggle="select2">
                                                     <option>-</option>
@@ -207,7 +207,7 @@
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="userName">Sub Wilayah</label>
+                                            <label class="col-sm-3 col-form-label" for="sub-region">Sub Wilayah</label>
                                             <div class="col-md">
                                                 <select class="form-control select2" data-toggle="select2">
                                                     <option>-</option>
