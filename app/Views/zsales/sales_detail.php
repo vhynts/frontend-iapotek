@@ -201,19 +201,17 @@
 
 
                                                 <tr>
-                                                    <th scope=" row">1</th>
-                                                    <!-- <td>10013164</td> -->
-
-                                                    <td>
+                                                    <th scope=" row" style=" vertical-align: middle;">1</th>
+                                                    <td style=" vertical-align: middle;">
                                                         <b>08912</b> <br />
                                                         TIDIFAR 400 MG BOX 10 STR @ 10 TAB
                                                     </td>
-                                                    <td>5</td>
-                                                    <td>BOX</td>
-                                                    <td>98.000</td>
-                                                    <td>0</td>
-                                                    <td>490.000</td>
-                                                    <td> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-trash-fill text-danger"></i></a></td>
+                                                    <td style=" vertical-align: middle;">5</td>
+                                                    <td style=" vertical-align: middle;">BOX</td>
+                                                    <td style=" vertical-align: middle;">98.000</td>
+                                                    <td style=" vertical-align: middle;">0</td>
+                                                    <td style=" vertical-align: middle;">490.000</td>
+                                                    <td style=" vertical-align: middle;"> <a href="javascript: void(0);" class="fs-16 px-1"> <i class="bi bi-trash-fill text-danger"></i></a></td>
                                                 </tr>
 
 
@@ -314,107 +312,6 @@
                     </div> <!-- end card -->
                 </div><!-- end col-->
             </div> <!-- end row-->
-
-            <!-- <div class="row">
-                <div class="col-12">
-                    <div class="card">
-
-                       
-                        <div class="table-responsive p-0">
-                            <table class=" table mb-0">
-                                <thead class="table-secondary" style="padding: 10px;">
-                                    <tr>
-                                        <th style="font-size: 12px;">NO</th>
-                                        <th style="font-size: 12px;">ITEM CODE</th>
-                                        <th style="font-size: 12px;">ITEM NAME</th>
-                                        <th style="font-size: 12px;">QTY</th>
-                                        <th style="font-size: 12px;">UNIT</th>
-                                        <th style="font-size: 12px;">PRICE</th>
-                                        <th style="font-size: 12px;">DISC (%)</th>
-                                        <th style="font-size: 12px;">SUB TOTAL</th>
-                                        <th style="font-size: 12px;"> </th>
-                                    </tr>
-                                </thead>
-
-                                <tbody>
-                                    <tr>
-                                        <th scope=" row">1</th>
-                                        <td>10013164</td>
-                                        <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
-                                        <td>5</td>
-                                        <td>BOX</td>
-                                        <td>98.000</td>
-                                        <td>0</td>
-                                        <td>490.000</td>
-                                        <td><a class="btn btn-sm btn-danger"><i class="bi bi-trash-fill"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>10013164</td>
-                                        <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
-                                        <td>5</td>
-                                        <td>BOX</td>
-                                        <td>98.000</td>
-                                        <td>0</td>
-                                        <td>490.000</td>
-                                        <td><a class="btn btn-sm btn-danger"><i class="bi bi-trash-fill"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>10013164</td>
-                                        <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
-                                        <td>5</td>
-                                        <td>BOX</td>
-                                        <td>98.000</td>
-                                        <td>0</td>
-                                        <td>490.000</td>
-                                        <td><a class="btn btn-sm btn-danger"><i class="bi bi-trash-fill"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>10013164</td>
-                                        <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
-                                        <td>5</td>
-                                        <td>BOX</td>
-                                        <td>98.000</td>
-                                        <td>0</td>
-                                        <td>490.000</td>
-                                        <td><a class="btn btn-sm btn-danger"><i class="bi bi-trash-fill"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>10013164</td>
-                                        <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
-                                        <td>5</td>
-                                        <td>BOX</td>
-                                        <td>98.000</td>
-                                        <td>0</td>
-                                        <td>490.000</td>
-                                        <td><a class="btn btn-sm btn-danger"><i class="bi bi-trash-fill"></i></a></td>
-                                    </tr>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>10013164</td>
-                                        <td>TIDIFAR 400 MG BOX 10 STR @ 10 TAB</td>
-                                        <td>5</td>
-                                        <td>BOX</td>
-                                        <td>98.000</td>
-                                        <td>0</td>
-                                        <td>490.000</td>
-                                        <td><a class="btn btn-sm btn-danger"><i class="bi bi-trash-fill"></i></a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-
-                           
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-
 
 
 

@@ -63,7 +63,7 @@
 
                     <div class="row mt-3 ">
                         <div class="col-sm-5 ">
-                            <div class="row">
+                            <div class="row ">
                                 <div class="col-sm-4 ">
                                     <p class="fs-14 mb-1 mt-2"><strong>No. Faktur </strong> </p>
                                 </div>
@@ -124,7 +124,20 @@
                             </address> -->
                         </div> <!-- end col-->
 
-                        <div class="col-6">
+                        <div class="col-sm-7">
+
+                            <!-- <div class="row g-3 ">
+                                <div class="col-sm-3 ">
+                                    <p class="fs-14 mb-1 mt-2 "><strong>Pelanggan </strong> </p>
+                                </div>
+                                <div class="col-sm-1 ">
+                                    <p class="fs-14 mb-1 mt-2 "><strong>: </strong></p>
+                                </div>
+                                <div class="col-sm-8 border">
+                                    <p class="fs-14 mb-1 mt-2"><span>SONY RIZMAWAN ADI</span></p>
+                                </div>
+
+                            </div> -->
 
                             <div class="row">
                                 <div class="col-sm-3 ">
@@ -148,26 +161,8 @@
                                     <p class="fs-14 mb-1 mt-1"><span>PERUMAHAN WIKU 1 RT 06/01 WONOSALAM, DEMAK</span></p>
                                 </div>
                             </div>
-                            <!-- <div class="row">
-                                <div class="col-sm-4 ">
-                                    <p class="fs-13 mb-1 mt-1"><strong>Sales </strong> </p>
-                                </div>
-                                <div class="col-sm-1 ">
-                                    <p class="fs-13 mb-1 mt-1"><strong>: </strong></p>
-                                </div>
-                                <div class="col-sm-7 ">
-                                    <p class="fs-13 mb-1 mt-1"><span>SONY</span></p>
-                                </div>
-                            </div> -->
 
-                            <!-- <h6 class="fs-14">Shipping Address</h6>
-                            <address>
-                                Thomson<br>
-                                795 Folsom Ave, Suite 600<br>
-                                San Francisco, CA 94107<br>
-                                <abbr title="Phone">P:</abbr> (123) 456-7890
-                            </address> -->
-                        </div> <!-- end col-->
+                        </div>
                     </div>
                     <!-- end row -->
 
@@ -327,8 +322,25 @@
                     </div>
                     <!-- end row-->
 
+                    <div class="row mt-4 row-cols-2 ">
+                        <div class="col text-center ">
+                            <strong>Hormat Kami</strong>
+                        </div>
+                        <div class="col  text-center ">
+                            <strong>Penerima</strong>
+                        </div>
+                        <div class="col  text-center mt-5 ">
+                            .........................................
+                        </div>
+                        <div class="col  text-center mt-5 ">
+                            .........................................
+                        </div>
 
-                    <div class="d-print-none mt-4 border">
+                    </div>
+
+
+
+                    <div class="d-print-none mt-4">
                         <div class="text-center">
                             <button onclick="history.back()" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Kembali</button>
                             <a href="javascript:window.print()" class="btn btn-success"><i class="ri-printer-line"></i> Print</a>

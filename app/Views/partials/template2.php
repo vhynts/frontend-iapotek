@@ -20,7 +20,7 @@
 </head>
 
 <body style="
-    width:210mm;">
+    width:210mm;" onload="window.print()">
     <!-- Begin page -->
     <div class="wrapper">
 

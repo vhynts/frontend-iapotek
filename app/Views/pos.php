@@ -255,51 +255,6 @@
 
 
 
-
-
-
-
-        <!-- Start Content-->
-        <!-- <div class="container-fluid">
-                <div class="row">
-                        <div class="col-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="header-title">Input Types</h4>
-
-                                    
-
-
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div> -->
-
-
-
-        <!-- ============================================================== -->
-        <!-- End Page content -->
-        <!-- ============================================================== -->
-
-
-        <!-- END wrapper -->
-
-
-
-
-        <?php #include 'partials/right-sidebar.php'; 
-        ?>
-
-        <?php #include 'partials/footer-scripts.php';
-        ?>
-
-
-
-
-        <!-- App js -->
-        <!-- <script src="assets/js/app.min.js"></script> -->
-
         <script type="text/javascript">
             function showTime() {
                 var a_p = "";
