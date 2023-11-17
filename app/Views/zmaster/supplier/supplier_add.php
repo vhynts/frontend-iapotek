@@ -49,49 +49,49 @@
 
                                     <div class="col-sm m-1  rounded-3">
                                         <div class="row mb-2 mt-2">
-                                            <label class="col-sm-3 col-form-label" for="code">Kode</label>
+                                            <label class="col-sm-3 col-form-label" for="kode">Kode</label>
                                             <div class="col-md-6">
-                                                <input type="text" class="form-control" id="code" name="code" value="" disabled>
+                                                <input type="text" class="form-control" id="kode" name="kode" value="" disabled>
                                             </div>
 
                                         </div>
 
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="name">Nama</label>
+                                            <label class="col-sm-3 col-form-label" for="nama">Nama</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="name" name="name" value="">
+                                                <input type="text" class="form-control" id="nama" name="nama" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="address">Alamat</label>
+                                            <label class="col-sm-3 col-form-label" for="alamat">Alamat</label>
                                             <div class="col-md">
-                                                <textarea class="form-control" id="address" rows="3"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="city">Kota</label>
-                                            <div class="col-md">
-                                                <input type="text" class="form-control" id="userName" name="userName" value="">
-                                            </div>
-                                        </div>
-                                        <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="province">Provinsi</label>
-                                            <div class="col-md">
-                                                <input type="text" class="form-control" id="province" name="province" value="">
+                                                <textarea class="form-control" id="alamat" rows="3"></textarea>
                                             </div>
                                         </div>
 
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="country">Negara</label>
+                                            <label class="col-sm-3 col-form-label" for="kota">Kota</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="country" name="country" value="INDONESIA">
+                                                <input type="text" class="form-control" id="kota" name="kota" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="postal-code">Kode Pos</label>
+                                            <label class="col-sm-3 col-form-label" for="provinsi">Provinsi</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="postal-code" name="postal-code" value="">
+                                                <input type="text" class="form-control" id="provinsi" name="provinsi" value="">
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-2">
+                                            <label class="col-sm-3 col-form-label" for="negara">Negara</label>
+                                            <div class="col-md">
+                                                <input type="text" class="form-control" id="negara" name="negara" value="INDONESIA">
+                                            </div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <label class="col-sm-3 col-form-label" for="kode-pos">Kode Pos</label>
+                                            <div class="col-md">
+                                                <input type="text" class="form-control" id="kode-pos" name="kode-pos" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
@@ -116,21 +116,21 @@
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="contact">Kontak</label>
+                                            <label class="col-sm-3 col-form-label" for="kontak">Kontak</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="contact" name="contact" value="">
+                                                <input type="text" class="form-control" id="kontak" name="kontak" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="account">No. Rek</label>
+                                            <label class="col-sm-3 col-form-label" for="rekening">No. Rek</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="account" name="account" value="">
+                                                <input type="text" class="form-control" id="rekening" name="rekening" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="account1">Rek. A/N</label>
+                                            <label class="col-sm-3 col-form-label" for="rekening2">Rek. A/N</label>
                                             <div class="col-md">
-                                                <input type="text" class="form-control" id="account1" name="account1" value="">
+                                                <input type="text" class="form-control" id="rekening2" name="rekening2" value="">
                                             </div>
                                         </div>
                                         <div class="row mb-2">
@@ -146,9 +146,9 @@
                                             </div>
                                         </div>
                                         <div class="row mb-2">
-                                            <label class="col-sm-3 col-form-label" for="info">Keterangan</label>
+                                            <label class="col-sm-3 col-form-label" for="keterangan">Keterangan</label>
                                             <div class="col-md">
-                                                <textarea class="form-control" id="info" rows="3"></textarea>
+                                                <textarea class="form-control" id="keterangan" rows="3"></textarea>
                                             </div>
                                         </div>
 

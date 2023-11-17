@@ -59,8 +59,8 @@
                             <div class="row">
                                 <div class="col-sm m-1 rounded-3 border">
                                     <div class="mt-1 mb-1">
-                                        <label for="example-disable" class="form-label">No Transaksi</label>
-                                        <input type="text" class="form-control" id="example-disable" disabled="" value="6204/BL/1023">
+                                        <label for="no-trans" class="form-label">No Transaksi</label>
+                                        <input type="text" class="form-control" id="no-trans" disabled="" value="6204/BL/1023">
                                     </div>
 
 
@@ -87,18 +87,18 @@
                                 <div class="col-sm m-1 rounded-3 border">
                                     <div class="mb-1 mt-1">
 
-                                        <label for="example-disable" class="form-label">Pesanan</label>
+                                        <label for="pesanan" class="form-label">Pesanan</label>
                                         <div class="input-group mb-1">
 
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="">
+                                            <input type="text" class="form-control" id="pesanan" disabled="" value="">
                                             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#bs-example-modal-lg"><i class="bi bi-search"></i></button>
 
                                             <!-- MODALLL -->
-                                            <div class="modal fade" id="bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
                                                 <div class="modal-dialog modal-lg">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
+                                                            <h4 class="modal-title" id="modal1">Large modal</h4>
                                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
                                                         <div class="modal-body">
@@ -123,7 +123,7 @@
                                         <div class="row">
                                             <div class="mb-1 col-sm-6">
                                                 <label class="form-label">Jatuh Tempo</label>
-                                                <input type="number" class="form-control" id="example-disable" value="0">
+                                                <input type="number" class="form-control" id="jt" value="0">
                                             </div>
                                             <div class="mb-1 col-sm-6">
                                                 <label class="form-label">Tanggal Jatuh Tempo</label>
@@ -138,16 +138,16 @@
                                 </div>
                                 <div class="col-sm mt-1 mb-1 mx-1 rounded-3 border">
                                     <label for="example-textarea" class="form-label mt-1">Keterangan</label>
-                                    <textarea class="form-control mb-2" id="example-textarea" rows="4"></textarea>
+                                    <textarea class="form-control mb-2" id="keterangan" rows="4"></textarea>
 
                                     <div class="row ">
                                         <div class="col-sm mb-1">
                                             <label for="example-disable" class="form-label">User</label>
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="Admin">
+                                            <input type="text" class="form-control" id="user" disabled="" value="Admin">
                                         </div>
                                         <div class="col-sm mb-1">
                                             <label for="example-disable" class="form-label">Lokasi</label>
-                                            <input type="text" class="form-control" id="example-disable" disabled="" value="Demak">
+                                            <input type="text" class="form-control" id="lokasi" disabled="" value="Demak">
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@
                                                     </td>
                                                     <td class="col-sm-1">
 
-                                                        <input type="number" class="form-control" id="example-disable" value="11">
+                                                        <input type="number" class="form-control" id="qty" value="11">
                                                     </td>
                                                     <td class="col-sm-2">
 
@@ -213,15 +213,15 @@
                                     </td>
                                     <td class="col-sm-2">
 
-                                        <input type="number" class="form-control" id="example-disable" value="0">
+                                        <input type="number" class="form-control" id="harga" value="0">
                                     </td>
                                     <td class="col-sm-1">
 
-                                        <input type="number" class="form-control" id="example-disable" value="0">
+                                        <input type="number" class="form-control" id="disc" value="0">
                                     </td>
                                     <td class="col-sm-2">
 
-                                        <input type="number" class="form-control" id="example-disable" disabled="" value="0">
+                                        <input type="number" class="form-control" id="subtotal" disabled="" value="0">
                                     </td>
                                     <td> <a href="javascript: void(0);" class="fs-18 px-1"> <i class="bi bi-plus-square-fill text-success"></i></a>
                                     </td>
@@ -278,11 +278,11 @@
                                     </div>
                                     <div class="col-sm-1 mb-1">
                                         <label for="example-disable" class="form-label ">Total Qty</label>
-                                        <input type="text" class="form-control" id="example-disable" disabled="" value="102">
+                                        <input type="text" class="form-control" id="total-qty" disabled="" value="102">
                                     </div>
                                     <div class="col-sm-3 mb-1">
                                         <label for="example-disable" class="form-label">Sub Total</label>
-                                        <input type="text" class="form-control" id="example-disable" disabled="" value="100.000">
+                                        <input type="text" class="form-control" id="subtotal1" disabled="" value="100.000">
                                     </div>
 
                                 </div>
@@ -294,11 +294,11 @@
                                     </div>
                                     <div class="col-sm-1 mb-1">
                                         <label for="example-disable" class="form-label">Potongan</label>
-                                        <input type="number" class="form-control" id="example-disable" value="0">
+                                        <input type="number" class="form-control" id="potongan" value="0">
                                     </div>
                                     <div class="col-sm-3 mb-1">
                                         <label for="example-disable" class="form-label">Total Potongan</label>
-                                        <input type="text" class="form-control" id="example-disable" disabled="" value="0">
+                                        <input type="text" class="form-control" id="total-potongan" disabled="" value="0">
                                     </div>
 
 
@@ -311,11 +311,11 @@
                                     </div>
                                     <div class="col-sm-1 mb-1">
                                         <label for="example-disable" class="form-label">Pajak</label>
-                                        <input type="number" class="form-control" id="example-disable" value="11">
+                                        <input type="number" class="form-control" id="pajak" value="11">
                                     </div>
                                     <div class="col-sm-3 mb-1">
                                         <label for="example-disable" class="form-label">Total Pajak</label>
-                                        <input type="text" class="form-control" id="example-disable" disabled="" value="50.000">
+                                        <input type="text" class="form-control" id="total-pajak" disabled="" value="50.000">
                                     </div>
 
 
@@ -328,7 +328,7 @@
                                     </div>
                                     <div class="col-sm-4 mb-3 ">
                                         <label for="example-disable" class="form-label">Total Akhir</label>
-                                        <input type="text" class="form-control fw-bold fs-3" id="example-disable" disabled="" value="150.000">
+                                        <input type="text" class="form-control fw-bold fs-3" id="total-akhir" disabled="" value="150.000">
                                     </div>
 
 
