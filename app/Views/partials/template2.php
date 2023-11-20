@@ -19,8 +19,10 @@
     <?= $this->include('partials/head-css') ?>
 </head>
 
-<body style="
-    width:210mm;" onload="window.print()">
+<body onload="window.print()">
+
+    <!-- <body style="
+    width:210mm;" onload="window.print()"> -->
     <!-- Begin page -->
     <div class="wrapper">
 

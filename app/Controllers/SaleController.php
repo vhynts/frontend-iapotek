@@ -41,7 +41,7 @@ class SaleController extends BaseController
             'sub_title' => 'Penjualan',
             'page_title' => 'Faktur Penjualan'
         ];
-        return view('zsales/print/print_si', $data);
+        return view('zsales/print/print_si2', $data);
     }
 
     public function sales_order()
