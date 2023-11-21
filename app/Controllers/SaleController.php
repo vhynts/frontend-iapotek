@@ -44,6 +44,16 @@ class SaleController extends BaseController
         return view('zsales/print/print_si2', $data);
     }
 
+    public function print_receipt()
+    {
+        $data = [
+            'title' => 'Penjualan',
+            'sub_title' => 'Penjualan',
+            'page_title' => 'Struk Penjualan'
+        ];
+        return view('zsales/print/print_receipt', $data);
+    }
+
     public function sales_order()
     {
         $data = [

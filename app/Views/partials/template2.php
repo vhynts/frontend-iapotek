@@ -17,6 +17,7 @@
     <?php #include 'partials/head-css.php'; 
     ?>
     <?= $this->include('partials/head-css') ?>
+
 </head>
 
 <body onload="window.print()">

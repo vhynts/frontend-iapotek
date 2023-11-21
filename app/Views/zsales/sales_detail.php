@@ -47,6 +47,7 @@
                     <div class="btn-group float-end mb-2 mt-2">
                         <button type="button" class="btn btn-purple dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-printer"></i> &nbsp;Print&nbsp; </button>
                         <div class="dropdown-menu">
+                            <a class="dropdown-item" href="print-receipt">Struk Penjualan</a>
                             <a class="dropdown-item" href="print-si">Faktur Penjualan</a>
                         </div>
                     </div><!-- /btn-group -->
