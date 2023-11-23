@@ -16,6 +16,11 @@ $routes->get('/point-of-sale', 'PosController::index');
 $routes->get('/item', 'MasterController::item_list');
 $routes->get('/item-add', 'MasterController::item_add');
 
+$routes->get('/item-unit', 'MasterController::item_unit');
+$routes->get('/item-cat', 'MasterController::item_cat');
+$routes->get('/dept', 'MasterController::dept');
+
+
 $routes->get('/customer', 'MasterController::customer_list');
 $routes->get('/customer-add', 'MasterController::customer_add');
 $routes->get('/customer-group', 'MasterController::customer_group_list');

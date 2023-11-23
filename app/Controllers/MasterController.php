@@ -22,6 +22,36 @@ class MasterController extends BaseController
         return view('zmaster/item/item', $data);
     }
 
+    public function item_unit()
+    {
+        // $masteritem = new Master_model();
+
+        $data = [
+            'title' => 'Satuan',
+            'sub_title' => 'Master',
+            'page_title' => 'Satuan',
+            // 'master_item' => $masteritem->findAll()
+        ];
+
+        // dd($data['master_item']);
+        return view('zmaster/item/unit', $data);
+    }
+
+    public function item_cat()
+    {
+        // $masteritem = new Master_model();
+
+        $data = [
+            'title' => 'Jenis',
+            'sub_title' => 'Master',
+            'page_title' => 'Jenis',
+            // 'master_item' => $masteritem->findAll()
+        ];
+
+        // dd($data['master_item']);
+        return view('zmaster/item/category', $data);
+    }
+
     public function customer_list()
     {
         // $masteritem = new Master_model();

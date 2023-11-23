@@ -1,0 +1,10 @@
+CRITICAL - 2023-11-23 02:26:24 --> Call to undefined function getBranch()
+in APPPATH\Views\zmaster\item\unit.php on line 141.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('zmaster/item/unit', [], true)
+ 4 APPPATH\Controllers\MasterController.php(37): view('zmaster/item/unit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MasterController->item_unit()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

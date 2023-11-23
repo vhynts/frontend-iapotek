@@ -22,6 +22,8 @@
                                 <div class="dropdown-menu" aria-labelledby="topnav-auth">
                                     <a href="item" class="dropdown-item">Daftar Item</a>
                                     <a href="#" class="dropdown-item disabled">Kartu Stok</a>
+                                    <a href="item-unit" class="dropdown-item">Satuan</a>
+                                    <a href="item-cat" class="dropdown-item">Jenis</a>
                                     <!-- <a href="daftar-item" class="dropdown-item">Satuan</a>
                                     <a href="daftar-item" class="dropdown-item">Jenis</a> -->
                                     <a href="item-detail"></a>
@@ -39,6 +41,14 @@
                             </div>
                             <div class="dropdown">
                                 <a href="supplier" class="dropdown-item"><i class="bi bi-shop-window"></i> &nbsp; Supplier</a>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="bi bi-building-gear"></i>
+                                    &nbsp; Lain-lain <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-auth">
+                                    <a href="dept" class="dropdown-item">Dept/Gudang</a>
+                                </div>
                             </div>
 
                         </div>
