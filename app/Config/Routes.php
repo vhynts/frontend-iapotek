@@ -31,6 +31,10 @@ $routes->get('/supplier-add', 'MasterController::supplier_add');
 $routes->get('/purchase-list', 'PurchaseController::purchase_list');
 $routes->get('/purchase-invoice', 'PurchaseController::purchase_invoice');
 
+$routes->get('/purchase-return', 'PurchaseController::return_list');
+$routes->get('purchase-return/create', 'PurchaseController::purchase_return_create');
+
+
 $routes->get('/sales-list', 'SaleController::sales_list');
 $routes->get('/sales-invoice', 'SaleController::sales_invoice');
 $routes->get('/sales-detail', 'SaleController::sales_detail');

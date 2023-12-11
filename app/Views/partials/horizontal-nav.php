@@ -63,7 +63,7 @@
 
 
                             <a href="purchase-list" class="dropdown-item"><i class="bi bi-basket"></i> &nbsp; Faktur Pembelian</a>
-                            <a href="#" class="dropdown-item disabled"><i class="bi bi-arrow-left-square"></i> &nbsp; Retur Pembelian</a>
+                            <a href="purchase-return" class="dropdown-item"><i class="bi bi-arrow-left-square"></i> &nbsp; Retur Pembelian</a>
                             <a href="#" class="dropdown-item disabled"><i class="bi bi-cash-coin"></i> &nbsp; Daftar Pembayaran</a>
                             <a href="purchase-invoice"></a>
                             <!-- <a href="daftar-item" class="dropdown-item">Satuan</a>
